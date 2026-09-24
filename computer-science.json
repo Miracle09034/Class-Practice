@@ -1,0 +1,2411 @@
+{
+  "subject": "Computer Science",
+  "topics": {
+    "Computer Ethics": [
+      {
+        "id": "ce_001",
+        "question": "The moral principles that regulate the use of computers, its accessories and environment are called:",
+        "options": ["Ethics", "Conduct", "Attitude", "Appreciation"],
+        "correct": 0,
+        "explanation": "🧠 Ethics = moral rules. Computer ethics guides how we use computers responsibly.",
+        "source": { "body": "WAEC", "year": "2016" }
+      },
+      {
+        "id": "ce_002",
+        "question": "Which of the following is NOT a computer ethics rule?",
+        "options": ["Using unlicensed software", "Respecting privacy", "Avoiding harmful programs", "Protecting intellectual property"],
+        "correct": 0,
+        "explanation": "🚫 Using unlicensed software is piracy — an unethical act.",
+        "source": { "body": "WAEC", "year": "2014" }
+      },
+      {
+        "id": "ce_003",
+        "question": "The illegal copying and distribution of commercial copyrighted software is called:",
+        "options": ["Software piracy", "Software licensing", "Software sharing", "Software upgrade"],
+        "correct": 0,
+        "explanation": "🏴‍☠️ Software piracy = stealing software without paying. Always use licensed versions!",
+        "source": { "body": "WAEC", "year": "2018" }
+      },
+      {
+        "id": "ce_004",
+        "question": "Which of the following is an example of unethical computer use?",
+        "options": ["Hacking into a bank's system", "Backing up your files", "Using antivirus software", "Shutting down properly"],
+        "correct": 0,
+        "explanation": "💻 Hacking = breaking into systems without permission. It's both illegal and unethical!",
+        "source": { "body": "WAEC", "year": "2015" }
+      },
+      {
+        "id": "ce_005",
+        "question": "The right of an individual to control the collection and use of their personal information is called:",
+        "options": ["Privacy", "Security", "Confidentiality", "Integrity"],
+        "correct": 0,
+        "explanation": "🔒 Privacy = your right to control your own personal data. Don't share it carelessly!",
+        "source": { "body": "WAEC", "year": "2017" }
+      },
+      {
+        "id": "ce_006",
+        "question": "A person who breaks into a computer system for personal gains is called:",
+        "options": ["Black hat hacker", "White hat hacker", "Ethical hacker", "Security expert"],
+        "correct": 0,
+        "explanation": "🎩 Black hat hackers = the bad guys. White hat = good guys. Grey hat = in between!",
+        "source": { "body": "WAEC", "year": "2019" }
+      },
+      {
+        "id": "ce_007",
+        "question": "Software that secretly collects information about users is called:",
+        "options": ["Spyware", "Malware", "Hardware", "Bugs"],
+        "correct": 0,
+        "explanation": "🕵️ Spyware = sneaky software that spies on you. Install a good antivirus to stay safe!",
+        "source": { "body": "WAEC", "year": "2020" }
+      },
+      {
+        "id": "ce_008",
+        "question": "Which of the following is a basic human right in a progressive society?",
+        "options": ["Privacy", "Education", "Status", "Wealth"],
+        "correct": 0,
+        "explanation": "🌍 Privacy is a fundamental human right. Everyone deserves to control their own information.",
+        "source": { "body": "WAEC", "year": "2018" }
+      },
+      {
+        "id": "ce_009",
+        "question": "Using a computer to harm another user is:",
+        "options": ["Unethical", "Important", "Necessary", "Useful"],
+        "correct": 0,
+        "explanation": "🚫 Using computers to harm others = unethical. Computers should help, not hurt!",
+        "source": { "body": "WAEC", "year": "2017" }
+      },
+      {
+        "id": "ce_010",
+        "question": "The property rights that protect any property of human intellect, usually by copyright, is called:",
+        "options": ["Intellectual property", "Information property", "Software property", "Digital property"],
+        "correct": 0,
+        "explanation": "💡 Intellectual property = creations of the mind. Respect copyright!",
+        "source": { "body": "WAEC", "year": "2019" }
+      },
+      {
+        "id": "ce_011",
+        "question": "Which of the following is a computer room management ethic?",
+        "options": ["Avoiding use of devices from untrusted sources", "Eating in the computer room", "Drinking near computers", "Running in the lab"],
+        "correct": 0,
+        "explanation": "✅ Avoid untrusted devices — they may carry viruses! Keep the lab clean and safe.",
+        "source": { "body": "WAEC", "year": "2016" }
+      },
+      {
+        "id": "ce_012",
+        "question": "Which of the following is NOT a laboratory rule?",
+        "options": ["Bringing food and drinks into the lab", "Scanning disks before use", "Turning off computers after use", "Keeping the lab clean"],
+        "correct": 0,
+        "explanation": "🍔 Food and drinks can spill and damage computers. Keep them out of the lab!",
+        "source": { "body": "WAEC", "year": "2015" }
+      },
+      {
+        "id": "ce_013",
+        "question": "The act of providing money or favors to someone in business or government to obtain an advantage is:",
+        "options": ["Bribery", "Donation", "Investment", "Charity"],
+        "correct": 0,
+        "explanation": "💸 Bribery = corruption. It's illegal and unethical in every profession!",
+        "source": { "body": "WAEC", "year": "2020" }
+      },
+      {
+        "id": "ce_014",
+        "question": "The abuse of email systems to send unsolicited email to large numbers of people is called:",
+        "options": ["Spam", "Virus", "Worm", "Trojan"],
+        "correct": 0,
+        "explanation": "📧 Spam = junk email. Never click links in spam messages — they can be dangerous!",
+        "source": { "body": "WAEC", "year": "2018" }
+      },
+      {
+        "id": "ce_015",
+        "question": "A harmful program that resides in the active memory of the computer and duplicates itself is a:",
+        "options": ["Virus", "Worm", "Trojan horse", "Spyware"],
+        "correct": 0,
+        "explanation": "🦠 Virus = self-replicating program. It spreads and damages your files. Use antivirus!",
+        "source": { "body": "WAEC", "year": "2019" }
+      },
+      {
+        "id": "ce_016",
+        "question": "A program in which malicious code is hidden inside a seemingly harmless program is called:",
+        "options": ["Trojan horse", "Virus", "Worm", "Spyware"],
+        "correct": 0,
+        "explanation": "🐴 Trojan horse = looks safe but hides a trap. Be careful what you download!",
+        "source": { "body": "WAEC", "year": "2017" }
+      },
+      {
+        "id": "ce_017",
+        "question": "Which of the following is an element of computer ethics?",
+        "options": ["Avoiding unauthorized access", "Sharing passwords", "Copying software illegally", "Hacking for fun"],
+        "correct": 0,
+        "explanation": "🔐 Avoid unauthorized access! Never share passwords or break into systems.",
+        "source": { "body": "WAEC", "year": "2015" }
+      },
+      {
+        "id": "ce_018",
+        "question": "The concept that an organization should act ethically by taking responsibility for its impact on the environment, community, and employees is:",
+        "options": ["Corporate social responsibility", "Professional ethics", "Learning organization", "Organizational values"],
+        "correct": 0,
+        "explanation": "🌱 CSR = doing good for society and the environment. Businesses should be responsible!",
+        "source": { "body": "WAEC", "year": "2021" }
+      },
+      {
+        "id": "ce_019",
+        "question": "A set of beliefs about right and wrong behavior within a society is called:",
+        "options": ["Ethics", "Values", "Principles", "Laws"],
+        "correct": 0,
+        "explanation": "⚖️ Ethics = society's beliefs about right and wrong. It guides our behavior.",
+        "source": { "body": "WAEC", "year": "2020" }
+      },
+      {
+        "id": "ce_020",
+        "question": "Rules and standards one needs to follow while using the computer and the internet are called:",
+        "options": ["Computer ethics", "Computer law", "Computer policy", "Computer rules"],
+        "correct": 0,
+        "explanation": "💻 Computer ethics = the do's and don'ts of using computers. Follow them!",
+        "source": { "body": "WAEC", "year": "2019" }
+      },
+      {
+        "id": "ce_021",
+        "question": "Which of the following is NOT an ethical behavior in computing?",
+        "options": ["Stealing someone's password", "Respecting intellectual property", "Avoiding harm to others", "Being honest"],
+        "correct": 0,
+        "explanation": "🚫 Stealing passwords = unethical and illegal. Never do it!",
+        "source": { "body": "WAEC", "year": "2016" }
+      },
+      {
+        "id": "ce_022",
+        "question": "A component of CSR that focuses on meeting present needs without compromising future generations is:",
+        "options": ["Supply chain sustainability", "Supply chain ethics", "Supply chain values", "Supply chain principles"],
+        "correct": 0,
+        "explanation": "🌿 Sustainability = meeting today's needs without hurting tomorrow. Think green!",
+        "source": { "body": "WAEC", "year": "2021" }
+      },
+      {
+        "id": "ce_023",
+        "question": "A calling that requires specialized knowledge and often long and intensive academic preparation is a:",
+        "options": ["Profession", "Professional", "Job", "Career"],
+        "correct": 0,
+        "explanation": "👔 A profession = specialized work. Examples: doctor, lawyer, engineer!",
+        "source": { "body": "WAEC", "year": "2020" }
+      },
+      {
+        "id": "ce_024",
+        "question": "A trade group that represents the world's largest software and hardware manufacturers is:",
+        "options": ["Business Software Alliance (BSA)", "Business Software Requirements", "Business Software Planning", "Business Software Development"],
+        "correct": 0,
+        "explanation": "🏢 BSA = Business Software Alliance. They fight software piracy worldwide!",
+        "source": { "body": "WAEC", "year": "2021" }
+      },
+      {
+        "id": "ce_025",
+        "question": "An attack on an information system that takes advantage of a particular system vulnerability is called:",
+        "options": ["Exploit", "Hack", "Bug", "Glitch"],
+        "correct": 0,
+        "explanation": "⚡ Exploit = taking advantage of a weakness. Keep your systems updated!",
+        "source": { "body": "WAEC", "year": "2019" }
+      },
+      {
+        "id": "ce_026",
+        "question": "A piece of programming code, usually disguised as something else, that causes a computer to behave unexpectedly is a:",
+        "options": ["Worm", "Virus", "Trojan", "Spyware"],
+        "correct": 0,
+        "explanation": "🪱 Worm = self-spreading malware. It doesn't need a host file to spread!",
+        "source": { "body": "WAEC", "year": "2018" }
+      },
+      {
+        "id": "ce_027",
+        "question": "Software that generates and grades tests that humans can pass but computers cannot is called:",
+        "options": ["CAPTCHA", "Antivirus", "Firewall", "Spam filter"],
+        "correct": 0,
+        "explanation": "🤖 CAPTCHA = proves you're human, not a robot! You see it on websites.",
+        "source": { "body": "WAEC", "year": "2020" }
+      },
+      {
+        "id": "ce_028",
+        "question": "The term that refers to social conventions about right and wrong that are widely shared is:",
+        "options": ["Ethics", "Values", "Principles", "Laws"],
+        "correct": 0,
+        "explanation": "🌍 Ethics = shared ideas about right and wrong. It's the foundation of good behavior!",
+        "source": { "body": "WAEC", "year": "2019" }
+      },
+      {
+        "id": "ce_029",
+        "question": "Acts that conform to what an individual believes to be the right thing to do are called:",
+        "options": ["Moral acts", "Legal acts", "Ethical acts", "Laws"],
+        "correct": 0,
+        "explanation": "❤️ Moral acts = doing what you believe is right. Follow your conscience!",
+        "source": { "body": "WAEC", "year": "2020" }
+      },
+      {
+        "id": "ce_030",
+        "question": "A misstatement or incomplete statement of a material fact is called:",
+        "options": ["Misrepresentation", "Fraud", "Deception", "Lie"],
+        "correct": 0,
+        "explanation": "⚠️ Misrepresentation = lying about something important. Always be honest!",
+        "source": { "body": "WAEC", "year": "2021" }
+      },
+      {
+        "id": "ce_031",
+        "question": "Which of the following is an example of a computer ethics violation?",
+        "options": ["Using someone's identity online", "Respecting privacy", "Being honest", "Following copyright"],
+        "correct": 0,
+        "explanation": "🎭 Identity theft = using someone else's identity. It's a serious crime!",
+        "source": { "body": "WAEC", "year": "2017" }
+      },
+      {
+        "id": "ce_032",
+        "question": "The act of stealing software is called:",
+        "options": ["Software piracy", "Software theft", "Software shoplifting", "Software robbery"],
+        "correct": 0,
+        "explanation": "💾 Software piracy = illegal copying. Always pay for software!",
+        "source": { "body": "WAEC", "year": "2016" }
+      },
+      {
+        "id": "ce_033",
+        "question": "Which of the following is a health risk from overuse of computers?",
+        "options": ["Eyestrain", "Improved eyesight", "Better posture", "Stronger muscles"],
+        "correct": 0,
+        "explanation": "👀 Eyestrain = tired eyes from too much screen time. Take breaks every 20 minutes!",
+        "source": { "body": "WAEC", "year": "2018" }
+      },
+      {
+        "id": "ce_034",
+        "question": "Which of the following is NOT a characteristic of a computer?",
+        "options": ["Diligence", "Speed", "Accuracy", "Carelessness"],
+        "correct": 0,
+        "explanation": "🤔 Wait — Diligence, Speed, and Accuracy ARE characteristics! Carelessness is the opposite.",
+        "source": { "body": "WAEC", "year": "2019" }
+      },
+      {
+        "id": "ce_035",
+        "question": "Computers do not require rest and can work all day. This characteristic is called:",
+        "options": ["Diligence", "Storage", "Speed", "Accuracy"],
+        "correct": 0,
+        "explanation": "💪 Diligence = computers don't get tired! They can work 24/7 without complaining.",
+        "source": { "body": "WAEC", "year": "2020" }
+      },
+      {
+        "id": "ce_036",
+        "question": "Which of the following is NOT a function of a computer?",
+        "options": ["Diligence", "Input", "Output", "Storage"],
+        "correct": 0,
+        "explanation": "⚙️ Diligence is a CHARACTERISTIC, not a function. Functions = Input, Process, Output, Storage!",
+        "source": { "body": "WAEC", "year": "2019" }
+      },
+      {
+        "id": "ce_037",
+        "question": "Which one of the following is not an output device?",
+        "options": ["Keyboard", "Monitor", "Printer", "Speaker"],
+        "correct": 0,
+        "explanation": "⌨️ Keyboard = INPUT device. Monitor, Printer, and Speaker = OUTPUT devices!",
+        "source": { "body": "WAEC", "year": "2020" }
+      },
+      {
+        "id": "ce_038",
+        "question": "Which of the following is an application software used to write and edit text?",
+        "options": ["Word processor", "Spreadsheet", "Database", "Graphic editor"],
+        "correct": 0,
+        "explanation": "📝 Word processor = software for writing text. Examples: MS Word, Google Docs!",
+        "source": { "body": "WAEC", "year": "2019" }
+      },
+      {
+        "id": "ce_039",
+        "question": "Which of the following is not an example of application software?",
+        "options": ["Operating system", "Utility software", "Language software", "Database"],
+        "correct": 0,
+        "explanation": "💻 Operating system = SYSTEM software, not application software. It manages the computer!",
+        "source": { "body": "WAEC", "year": "2020" }
+      },
+      {
+        "id": "ce_040",
+        "question": "An element of ICT that has no meaning by itself is:",
+        "options": ["Data", "Information", "User", "Knowledge"],
+        "correct": 0,
+        "explanation": "📊 Data = raw facts. When processed, data becomes INFORMATION with meaning!",
+        "source": { "body": "WAEC", "year": "2020" }
+      },
+      {
+        "id": "ce_041",
+        "question": "Which of the following sectors can be supported by ICT?",
+        "options": ["All of the above", "Education", "Health", "Agriculture"],
+        "correct": 0,
+        "explanation": "🏫 ICT helps Education, Health, AND Agriculture! It's everywhere.",
+        "source": { "body": "WAEC", "year": "2020" }
+      },
+      {
+        "id": "ce_042",
+        "question": "The characteristic of a computer that refers to how it can perform given tasks is:",
+        "options": ["All of the above", "Storage", "Diligence", "Speed"],
+        "correct": 0,
+        "explanation": "⚡ Computers have MANY characteristics: Storage, Diligence, AND Speed!",
+        "source": { "body": "WAEC", "year": "2020" }
+      },
+      {
+        "id": "ce_043",
+        "question": "Which of the following is NOT a computer ethics rule?",
+        "options": ["Sharing your password with friends", "Respecting privacy", "Avoiding harmful programs", "Protecting intellectual property"],
+        "correct": 0,
+        "explanation": "🔐 NEVER share your password! It's one of the most important computer ethics rules.",
+        "source": { "body": "WAEC", "year": "2017" }
+      },
+      {
+        "id": "ce_044",
+        "question": "Which of the following is an example of ethical computer behavior?",
+        "options": ["Respecting intellectual property", "Downloading pirated software", "Hacking websites", "Sending spam emails"],
+        "correct": 0,
+        "explanation": "✅ Respect intellectual property! Don't steal other people's work.",
+        "source": { "body": "WAEC", "year": "2018" }
+      },
+      {
+        "id": "ce_045",
+        "question": "Which of the following is a laboratory rule?",
+        "options": ["Turn off computers after use", "Eat in the lab", "Run in the lab", "Change computer settings"],
+        "correct": 0,
+        "explanation": "🔌 Always turn off computers after use! It saves energy and keeps them safe.",
+        "source": { "body": "WAEC", "year": "2016" }
+      },
+      {
+        "id": "ce_046",
+        "question": "Which of the following is NOT a laboratory rule?",
+        "options": ["Changing computer settings", "Scanning disks before use", "Keeping the lab clean", "Turning off computers after use"],
+        "correct": 0,
+        "explanation": "⚙️ Don't change computer settings! Other students need the computer to work properly.",
+        "source": { "body": "WAEC", "year": "2015" }
+      },
+      {
+        "id": "ce_047",
+        "question": "Which of the following is a computer room management ethic?",
+        "options": ["Maintaining a dust-free environment", "Eating in the lab", "Drinking near computers", "Running in the lab"],
+        "correct": 0,
+        "explanation": "🧹 Keep the lab dust-free! Dust can damage computer components.",
+        "source": { "body": "WAEC", "year": "2016" }
+      },
+      {
+        "id": "ce_048",
+        "question": "Which of the following is NOT a computer ethics violation?",
+        "options": ["Backing up your files", "Hacking into a bank", "Using unlicensed software", "Stealing passwords"],
+        "correct": 0,
+        "explanation": "💾 Backing up files = GOOD practice! It protects your work from being lost.",
+        "source": { "body": "WAEC", "year": "2018" }
+      },
+      {
+        "id": "ce_049",
+        "question": "Which of the following is an example of unethical computer use?",
+        "options": ["Downloading pirated music", "Respecting privacy", "Backing up files", "Using antivirus software"],
+        "correct": 0,
+        "explanation": "🎵 Downloading pirated music = stealing! It's illegal and unethical.",
+        "source": { "body": "WAEC", "year": "2019" }
+      },
+      {
+        "id": "ce_050",
+        "question": "Which of the following is NOT an ethical issue in computing?",
+        "options": ["Installing antivirus software", "Privacy", "Intellectual property", "Software piracy"],
+        "correct": 0,
+        "explanation": "🛡️ Installing antivirus = GOOD! It protects your computer from malware.",
+        "source": { "body": "WAEC", "year": "2020" }
+      },
+      {
+  "id": "ce_051",
+  "question": "The unauthorized access to a computer system with the intent to steal or destroy data is called:",
+  "options": ["Hacking", "Browsing", "Chatting", "Surfing"],
+  "correct": 0,
+  "explanation": "🚨 Hacking = breaking into systems without permission. It's a criminal offence!",
+  "source": { "body": "WAEC", "year": "2017" }
+},
+{
+  "id": "ce_052",
+  "question": "Which of the following is the most appropriate action when you receive a suspicious email asking for your password?",
+  "options": ["Delete the email without responding", "Reply with your password", "Forward it to friends", "Click all the links"],
+  "correct": 0,
+  "explanation": "🗑️ Never respond to suspicious emails! Legitimate companies never ask for your password.",
+  "source": { "body": "WAEC", "year": "2019" }
+},
+{
+  "id": "ce_053",
+  "question": "The fraudulent practice of sending emails pretending to be from reputable companies to obtain personal information is called:",
+  "options": ["Phishing", "Pharming", "Spamming", "Skimming"],
+  "correct": 0,
+  "explanation": "🎣 Phishing = a fake email 'fishes' for your information. Don't take the bait!",
+  "source": { "body": "WAEC", "year": "2020" }
+},
+{
+  "id": "ce_054",
+  "question": "Unsolicited bulk email sent to many recipients is known as:",
+  "options": ["Spam", "Phishing", "Scam", "Virus"],
+  "correct": 0,
+  "explanation": "📬 Spam = junk email flooding your inbox. Mark it as spam and move on!",
+  "source": { "body": "WAEC", "year": "2018" }
+},
+{
+  "id": "ce_055",
+  "question": "A type of malware that encrypts a user's files and demands payment for the decryption key is:",
+  "options": ["Ransomware", "Adware", "Spyware", "Freeware"],
+  "correct": 0,
+  "explanation": "🔒 Ransomware = holds your files 'hostage'. Back up your data to stay safe!",
+  "source": { "body": "WAEC", "year": "2021" }
+},
+{
+  "id": "ce_056",
+  "question": "The process of verifying the identity of a user before granting access is called:",
+  "options": ["Authentication", "Authorization", "Registration", "Encryption"],
+  "correct": 0,
+  "explanation": "🔑 Authentication = proving who you are (e.g. entering a password).",
+  "source": { "body": "WAEC", "year": "2019" }
+},
+{
+  "id": "ce_057",
+  "question": "Two-factor authentication requires the user to provide:",
+  "options": ["Two different types of credentials", "Two passwords", "Two usernames", "Two email addresses"],
+  "correct": 0,
+  "explanation": "🔐 2FA = something you KNOW + something you HAVE. Extra security!",
+  "source": { "body": "WAEC", "year": "2021" }
+},
+{
+  "id": "ce_058",
+  "question": "Which of the following is NOT a strong password?",
+  "options": ["12345678", "A!b2#C3$d", "P@ssw0rd!23", "Xy9$kLm4"],
+  "correct": 0,
+  "explanation": "🚫 '12345678' is the WORST password. Use a mix of letters, numbers, and symbols!",
+  "source": { "body": "WAEC", "year": "2020" }
+},
+{
+  "id": "ce_059",
+  "question": "A software program that displays unwanted advertisements on a user's computer is called:",
+  "options": ["Adware", "Malware", "Spyware", "Firmware"],
+  "correct": 0,
+  "explanation": "📢 Adware = annoying pop-up ads. Install an ad blocker to reduce them!",
+  "source": { "body": "WAEC", "year": "2018" }
+},
+{
+  "id": "ce_060",
+  "question": "The practice of using someone else's personal information, such as name or credit card details, for fraud is called:",
+  "options": ["Identity theft", "Cyberbullying", "Hacking", "Phishing"],
+  "correct": 0,
+  "explanation": "🎭 Identity theft = stealing who you ARE. Guard your personal information!",
+  "source": { "body": "WAEC", "year": "2020" }
+},
+{
+  "id": "ce_061",
+  "question": "The use of electronic communication to bully a person, typically by sending intimidating messages, is:",
+  "options": ["Cyberbullying", "Chatting", "Spamming", "Blogging"],
+  "correct": 0,
+  "explanation": "💔 Cyberbullying hurts real people. Always be kind online!",
+  "source": { "body": "WAEC", "year": "2021" }
+},
+{
+  "id": "ce_062",
+  "question": "The legal protection given to creators of original works is called:",
+  "options": ["Copyright", "Patent", "Trademark", "License"],
+  "correct": 0,
+  "explanation": "©️ Copyright = automatic protection. You own what you create!",
+  "source": { "body": "WAEC", "year": "2019" }
+},
+{
+  "id": "ce_063",
+  "question": "A legal right granted by a government to an inventor to make and sell an invention is a:",
+  "options": ["Patent", "Copyright", "Trademark", "License"],
+  "correct": 0,
+  "explanation": "🔬 Patent = protects INVENTIONS. Copyright protects CREATIVE works!",
+  "source": { "body": "WAEC", "year": "2019" }
+},
+{
+  "id": "ce_064",
+  "question": "A recognizable sign, design, or expression that identifies products from a particular source is a:",
+  "options": ["Trademark", "Patent", "Copyright", "Logo"],
+  "correct": 0,
+  "explanation": "™️ Trademark = protects BRANDS. Examples: Nike's swoosh, Coca-Cola's script!",
+  "source": { "body": "WAEC", "year": "2019" }
+},
+{
+  "id": "ce_065",
+  "question": "The type of software that is free to use for a trial period, after which the user must pay, is:",
+  "options": ["Shareware", "Freeware", "Open source", "Commercial"],
+  "correct": 0,
+  "explanation": "⏳ Shareware = try before you buy. Pay after the trial ends!",
+  "source": { "body": "WAEC", "year": "2020" }
+},
+{
+  "id": "ce_066",
+  "question": "Software that is completely free to use with no obligation to pay is called:",
+  "options": ["Freeware", "Shareware", "Adware", "Trialware"],
+  "correct": 0,
+  "explanation": "🎁 Freeware = completely free! Examples: Firefox, VLC Media Player.",
+  "source": { "body": "WAEC", "year": "2020" }
+},
+{
+  "id": "ce_067",
+  "question": "Software whose source code is freely available for anyone to modify and distribute is:",
+  "options": ["Open-source software", "Freeware", "Shareware", "Commercial software"],
+  "correct": 0,
+  "explanation": "🌐 Open source = the code is public. Examples: Linux, Python, Blender!",
+  "source": { "body": "WAEC", "year": "2021" }
+},
+{
+  "id": "ce_068",
+  "question": "Which of the following is an example of open-source software?",
+  "options": ["Linux", "Windows", "macOS", "MS Office"],
+  "correct": 0,
+  "explanation": "🐧 Linux = a famous open-source operating system. Anyone can view its code!",
+  "source": { "body": "WAEC", "year": "2021" }
+},
+{
+  "id": "ce_069",
+  "question": "The transfer of a file from a remote server to a local computer is:",
+  "options": ["Downloading", "Uploading", "Browsing", "Streaming"],
+  "correct": 0,
+  "explanation": "⬇️ Download = remote → local. Upload = local → remote. Easy to remember!",
+  "source": { "body": "WAEC", "year": "2018" }
+},
+{
+  "id": "ce_070",
+  "question": "The transfer of a file from a local computer to a remote server is:",
+  "options": ["Uploading", "Downloading", "Browsing", "Streaming"],
+  "correct": 0,
+  "explanation": "⬆️ Upload = local → remote. Posting a photo on Instagram is an upload!",
+  "source": { "body": "WAEC", "year": "2018" }
+},
+{
+  "id": "ce_071",
+  "question": "A network of physical objects embedded with sensors and software, connected to the internet, is called:",
+  "options": ["Internet of Things", "Internet of Things and Services", "Internet of Networks", "Internet of Computers"],
+  "correct": 0,
+  "explanation": "🌐 IoT = everyday objects going online! Smart TVs, smart watches, smart bulbs!",
+  "source": { "body": "WAEC", "year": "2021" }
+},
+{
+  "id": "ce_072",
+  "question": "The protection of computers, networks, and data from digital attacks is called:",
+  "options": ["Cybersecurity", "Network security", "Physical security", "Data security"],
+  "correct": 0,
+  "explanation": "🛡️ Cybersecurity = defending against cyberattacks. Everyone should care about it!",
+  "source": { "body": "WAEC", "year": "2021" }
+},
+{
+  "id": "ce_073",
+  "question": "A person who uses their computing skills to find vulnerabilities and help organizations fix them is a:",
+  "options": ["White hat hacker", "Black hat hacker", "Grey hat hacker", "Cracker"],
+  "correct": 0,
+  "explanation": "🎩 White hat hackers = the GOOD guys! They protect systems, not break them.",
+  "source": { "body": "WAEC", "year": "2020" }
+},
+{
+  "id": "ce_074",
+  "question": "A hacker who tests systems for vulnerabilities with permission from the owner is called:",
+  "options": ["Ethical hacker", "Malicious hacker", "Grey hat", "Cracker"],
+  "correct": 0,
+  "explanation": "✅ Ethical hackers have PERMISSION. They help companies find weaknesses!",
+  "source": { "body": "WAEC", "year": "2021" }
+},
+{
+  "id": "ce_075",
+  "question": "Which of the following is an example of computer abuse?",
+  "options": ["Using a company computer for personal business", "Backing up files", "Updating antivirus", "Turning off the monitor"],
+  "correct": 0,
+  "explanation": "🚫 Company computers = for company work! Personal use can be considered abuse.",
+  "source": { "body": "WAEC", "year": "2019" }
+},
+{
+  "id": "ce_076",
+  "question": "The digital footprint that a user leaves when using the internet includes:",
+  "options": ["All online activities and traces", "Only emails sent", "Only photos posted", "Only comments made"],
+  "correct": 0,
+  "explanation": "👣 Your digital footprint = EVERYTHING you do online. It never truly disappears!",
+  "source": { "body": "WAEC", "year": "2021" }
+},
+{
+  "id": "ce_077",
+  "question": "Posting false information online about someone to damage their reputation is called:",
+  "options": ["Defamation", "Spamming", "Phishing", "Trolling"],
+  "correct": 0,
+  "explanation": "⚖️ Defamation = spreading lies that harm someone. It's both unethical and illegal!",
+  "source": { "body": "WAEC", "year": "2020" }
+},
+{
+  "id": "ce_078",
+  "question": "The intentional spreading of false information online is called:",
+  "options": ["Fake news", "Spam", "Phishing", "Trolling"],
+  "correct": 0,
+  "explanation": "📰 Fake news = lies dressed up as truth. Always verify before sharing!",
+  "source": { "body": "WAEC", "year": "2021" }
+},
+{
+  "id": "ce_079",
+  "question": "Which of the following is a computer professional body?",
+  "options": ["NCS", "NBA", "NMA", "NUT"],
+  "correct": 0,
+  "explanation": "💼 NCS = Nigeria Computer Society. NBA = lawyers, NMA = doctors!",
+  "source": { "body": "WAEC", "year": "2019" }
+},
+{
+  "id": "ce_080",
+  "question": "The Nigeria Computer Society (NCS) is an association for:",
+  "options": ["Computer professionals in Nigeria", "Doctors", "Lawyers", "Teachers"],
+  "correct": 0,
+  "explanation": "🇳🇬 NCS = the umbrella body for IT professionals in Nigeria. Join to grow your career!",
+  "source": { "body": "WAEC", "year": "2020" }
+},
+{
+  "id": "ce_081",
+  "question": "The Computer Professionals Registration Council of Nigeria is known as:",
+  "options": ["CPN", "NCS", "NITDA", "NCC"],
+  "correct": 0,
+  "explanation": "🏛️ CPN = Computer Professionals Registration Council. They register and regulate IT professionals!",
+  "source": { "body": "WAEC", "year": "2020" }
+},
+{
+  "id": "ce_082",
+  "question": "Which Nigerian agency is responsible for the development of IT in Nigeria?",
+  "options": ["NITDA", "NCS", "CPN", "NCC"],
+  "correct": 0,
+  "explanation": "🏢 NITDA = National Information Technology Development Agency. They build Nigeria's IT ecosystem!",
+  "source": { "body": "WAEC", "year": "2021" }
+},
+{
+  "id": "ce_083",
+  "question": "The Nigerian Communications Commission (NCC) is responsible for regulating:",
+  "options": ["Telecommunications industry", "Banking sector", "Education sector", "Health sector"],
+  "correct": 0,
+  "explanation": "📡 NCC = regulates phones, networks, and ISPs in Nigeria!",
+  "source": { "body": "WAEC", "year": "2021" }
+},
+{
+  "id": "ce_084",
+  "question": "The law that protects individuals' personal data in Nigeria is the:",
+  "options": ["Nigeria Data Protection Regulation (NDPR)", "Nigeria Cybercrime Act", "Nigeria Communications Act", "Nigeria IT Policy"],
+  "correct": 0,
+  "explanation": "🛡️ NDPR = protects your personal data in Nigeria. Companies must handle your data responsibly!",
+  "source": { "body": "WAEC", "year": "2021" }
+},
+{
+  "id": "ce_085",
+  "question": "The Nigerian Cybercrime Act was enacted in the year:",
+  "options": ["2015", "2010", "2020", "2005"],
+  "correct": 0,
+  "explanation": "📜 The Cybercrime Act 2015 = Nigeria's law against cybercrimes!",
+  "source": { "body": "WAEC", "year": "2020" }
+},
+{
+  "id": "ce_086",
+  "question": "Which of the following is NOT a form of cybercrime?",
+  "options": ["Reading a book", "Identity theft", "Phishing", "Ransomware"],
+  "correct": 0,
+  "explanation": "📚 Reading a book is perfectly safe! The other three are cybercrimes.",
+  "source": { "body": "WAEC", "year": "2020" }
+},
+{
+  "id": "ce_087",
+  "question": "The acronym 'ICT' stands for:",
+  "options": ["Information and Communication Technology", "Information Control Technology", "International Computer Technology", "Internet Communication Technology"],
+  "correct": 0,
+  "explanation": "📡 ICT = Information and Communication Technology. It's the tech world's foundation!",
+  "source": { "body": "WAEC", "year": "2018" }
+},
+{
+  "id": "ce_088",
+  "question": "The rules and regulations that guide the behavior of users on the internet are called:",
+  "options": ["Netiquette", "Netiquette code", "Internet law", "Cyber etiquette"],
+  "correct": 0,
+  "explanation": "🎩 Netiquette = 'net etiquette'. Be polite, don't shout in CAPS, respect others!",
+  "source": { "body": "WAEC", "year": "2019" }
+},
+{
+  "id": "ce_089",
+  "question": "Typing in all capital letters online is generally considered:",
+  "options": ["Shouting", "Formal writing", "Emphasis", "Proper writing"],
+  "correct": 0,
+  "explanation": "📢 TYPING IN CAPS = SHOUTING. Use proper case to be polite online!",
+  "source": { "body": "WAEC", "year": "2019" }
+},
+{
+  "id": "ce_090",
+  "question": "The set of rules that govern the exchange of data over the internet is:",
+  "options": ["Protocol", "Policy", "Procedure", "Program"],
+  "correct": 0,
+  "explanation": "📶 Protocol = technical rules for communication. Example: HTTP, FTP, TCP/IP!",
+  "source": { "body": "WAEC", "year": "2018" }
+},
+{
+  "id": "ce_091",
+  "question": "A legal agreement between a software developer and the user that specifies the terms of use is called:",
+  "options": ["End User License Agreement (EULA)", "Software agreement", "User manual", "License key"],
+  "correct": 0,
+  "explanation": "📄 EULA = the agreement you accept when installing software. Read it before clicking 'I Agree'!",
+  "source": { "body": "WAEC", "year": "2020" }
+},
+{
+  "id": "ce_092",
+  "question": "Which of the following is a benefit of using licensed software?",
+  "options": ["Access to technical support and updates", "Virus infection", "Legal trouble", "Poor performance"],
+  "correct": 0,
+  "explanation": "✅ Licensed software = support, updates, and peace of mind! Worth the money.",
+  "source": { "body": "WAEC", "year": "2019" }
+},
+{
+  "id": "ce_093",
+  "question": "The act of intentionally destroying or altering computer files without authorization is:",
+  "options": ["Data diddling", "Data processing", "Data entry", "Data backup"],
+  "correct": 0,
+  "explanation": "🗑️ Data diddling = tampering with data. It's a serious crime in computing!",
+  "source": { "body": "WAEC", "year": "2019" }
+},
+{
+  "id": "ce_094",
+  "question": "Which of the following statements about computer viruses is TRUE?",
+  "options": ["They can spread through email attachments", "They improve computer speed", "They are harmless", "They are legal"],
+  "correct": 0,
+  "explanation": "📧 Viruses often hide in email attachments. Never open files from unknown senders!",
+  "source": { "body": "WAEC", "year": "2020" }
+},
+{
+  "id": "ce_095",
+  "question": "A firewall is used to:",
+  "options": ["Block unauthorized access to a network", "Speed up the computer", "Store files", "Print documents"],
+  "correct": 0,
+  "explanation": "🔥 Firewall = your computer's bodyguard! It blocks intruders from the internet.",
+  "source": { "body": "WAEC", "year": "2020" }
+},
+{
+  "id": "ce_096",
+  "question": "The process of converting data into a coded form to prevent unauthorized access is:",
+  "options": ["Encryption", "Decryption", "Compression", "Decompression"],
+  "correct": 0,
+  "explanation": "🔐 Encryption = scrambling data so only the right person can read it!",
+  "source": { "body": "WAEC", "year": "2021" }
+},
+{
+  "id": "ce_097",
+  "question": "The process of converting encrypted data back into its original form is:",
+  "options": ["Decryption", "Encryption", "Compression", "Translation"],
+  "correct": 0,
+  "explanation": "🔓 Decryption = unlocking encrypted data using the right key!",
+  "source": { "body": "WAEC", "year": "2021" }
+},
+{
+  "id": "ce_098",
+  "question": "Which of the following is a safe practice when using public Wi-Fi?",
+  "options": ["Avoid accessing bank accounts", "Share passwords openly", "Download unknown files", "Disable your firewall"],
+  "correct": 0,
+  "explanation": "📶 Public Wi-Fi can be unsafe! Avoid logging into bank accounts on it.",
+  "source": { "body": "WAEC", "year": "2021" }
+},
+{
+  "id": "ce_099",
+  "question": "The ethical principle that requires professionals to be honest and truthful is:",
+  "options": ["Integrity", "Confidentiality", "Objectivity", "Competence"],
+  "correct": 0,
+  "explanation": "⚖️ Integrity = being honest, even when no one is watching. The mark of a true professional!",
+  "source": { "body": "WAEC", "year": "2020" }
+},
+{
+  "id": "ce_100",
+  "question": "A computer professional should avoid conflicts of interest because it affects:",
+  "options": ["Objectivity and trust", "Internet speed", "Battery life", "Screen resolution"],
+  "correct": 0,
+  "explanation": "🤝 Conflicts of interest = trust lost. Stay neutral and professional!",
+  "source": { "body": "WAEC", "year": "2021" }
+}
+    ],
+"Word Processing": [
+{
+  "id": "wp_001",
+  "question": "The software used for creating, editing, formatting and printing text documents is called:",
+  "options": ["Word processor", "Spreadsheet", "Database", "Graphic package"],
+  "correct": 0,
+  "explanation": "📝 Word processor = text documents! Examples: MS Word, Google Docs, WPS Writer.",
+  "source": { "body": "WAEC", "year": "2015" }
+},
+{
+  "id": "wp_002",
+  "question": "Which of the following is an example of a word processing application?",
+  "options": ["Microsoft Word", "Microsoft Excel", "Microsoft Access", "Microsoft PowerPoint"],
+  "correct": 0,
+  "explanation": "📄 MS Word = word processor. Excel = spreadsheet, Access = database, PowerPoint = presentation!",
+  "source": { "body": "WAEC", "year": "2018" }
+},
+{
+  "id": "wp_003",
+  "question": "The default file extension for a Microsoft Word document (2007 and later) is:",
+  "options": [".docx", ".doc", ".txt", ".pdf"],
+  "correct": 0,
+  "explanation": "📁 .docx = modern Word format. .doc was the older version (before 2007)!",
+  "source": { "body": "WAEC", "year": "2019" }
+},
+{
+  "id": "wp_004",
+  "question": "Which keyboard shortcut is used to save a document in most word processors?",
+  "options": ["Ctrl + S", "Ctrl + V", "Ctrl + P", "Ctrl + N"],
+  "correct": 0,
+  "explanation": "💾 Ctrl+S = Save! Get in the habit of saving often — Ctrl+S is your best friend!",
+  "source": { "body": "WAEC", "year": "2017" }
+},
+{
+  "id": "wp_005",
+  "question": "The keyboard shortcut Ctrl + C is used to:",
+  "options": ["Copy selected text", "Cut selected text", "Paste text", "Cancel operation"],
+  "correct": 0,
+  "explanation": "📋 Ctrl+C = Copy! Ctrl+X = Cut. Ctrl+V = Paste. Remember the trio!",
+  "source": { "body": "WAEC", "year": "2016" }
+},
+{
+  "id": "wp_006",
+  "question": "The keyboard shortcut Ctrl + V is used to:",
+  "options": ["Paste copied text", "Copy text", "Cut text", "View text"],
+  "correct": 0,
+  "explanation": "📌 Ctrl+V = Paste! V looks like a downward arrow — text 'drops' into place!",
+  "source": { "body": "WAEC", "year": "2016" }
+},
+{
+  "id": "wp_007",
+  "question": "The keyboard shortcut Ctrl + X is used to:",
+  "options": ["Cut selected text", "Copy text", "Paste text", "Exit document"],
+  "correct": 0,
+  "explanation": "✂️ Ctrl+X = Cut! The X looks like scissors cutting text out.",
+  "source": { "body": "WAEC", "year": "2016" }
+},
+{
+  "id": "wp_008",
+  "question": "Which of the following is NOT a word processing application?",
+  "options": ["Lotus 1-2-3", "Microsoft Word", "WordPerfect", "Google Docs"],
+  "correct": 0,
+  "explanation": "❌ Lotus 1-2-3 = a SPREADSHEET program, not a word processor!",
+  "source": { "body": "WAEC", "year": "2019" }
+},
+{
+  "id": "wp_009",
+  "question": "The bar at the top of a word processing window that shows the name of the document is the:",
+  "options": ["Title bar", "Menu bar", "Status bar", "Tool bar"],
+  "correct": 0,
+  "explanation": "🏷️ Title bar = shows the document name. Look at the top of your screen!",
+  "source": { "body": "WAEC", "year": "2018" }
+},
+{
+  "id": "wp_010",
+  "question": "The area of a word processor where text is typed is called the:",
+  "options": ["Document area", "Toolbar", "Status bar", "Menu bar"],
+  "correct": 0,
+  "explanation": "📄 Document area = the big white space where you type. That's your canvas!",
+  "source": { "body": "WAEC", "year": "2018" }
+},
+{
+  "id": "wp_011",
+  "question": "The blinking vertical line that shows where text will be inserted is called the:",
+  "options": ["Cursor", "Pointer", "Marker", "Indicator"],
+  "correct": 0,
+  "explanation": "📍 Cursor = the blinking line! It shows WHERE you'll type next.",
+  "source": { "body": "WAEC", "year": "2017" }
+},
+{
+  "id": "wp_012",
+  "question": "The bar at the bottom of a word processing window that shows page number, word count, etc. is the:",
+  "options": ["Status bar", "Title bar", "Menu bar", "Tool bar"],
+  "correct": 0,
+  "explanation": "📊 Status bar = shows page number, word count, zoom. Check it often!",
+  "source": { "body": "WAEC", "year": "2018" }
+},
+{
+  "id": "wp_013",
+  "question": "The process of checking a document for spelling and grammatical errors is:",
+  "options": ["Proofreading", "Formatting", "Editing", "Printing"],
+  "correct": 0,
+  "explanation": "✅ Proofreading = catching mistakes. Always proofread before printing!",
+  "source": { "body": "WAEC", "year": "2019" }
+},
+{
+  "id": "wp_014",
+  "question": "The feature used to automatically detect and correct spelling errors in a word processor is:",
+  "options": ["Spell check", "Grammar check", "Thesaurus", "Word count"],
+  "correct": 0,
+  "explanation": "🔍 Spell check = finds misspelled words. The red squiggly line means 'check me'!",
+  "source": { "body": "WAEC", "year": "2017" }
+},
+{
+  "id": "wp_015",
+  "question": "The feature that suggests words with similar meanings is the:",
+  "options": ["Thesaurus", "Dictionary", "Encyclopedia", "Spell check"],
+  "correct": 0,
+  "explanation": "📖 Thesaurus = find synonyms! Perfect when you use the same word too often.",
+  "source": { "body": "WAEC", "year": "2018" }
+},
+{
+  "id": "wp_016",
+  "question": "The alignment that positions text evenly at the left and right margins is:",
+  "options": ["Justify", "Left", "Right", "Center"],
+  "correct": 0,
+  "explanation": "📐 Justify = straight edges on BOTH sides. Looks like newspaper columns!",
+  "source": { "body": "WAEC", "year": "2019" }
+},
+{
+  "id": "wp_017",
+  "question": "The default alignment in most word processors is:",
+  "options": ["Left", "Right", "Center", "Justify"],
+  "correct": 0,
+  "explanation": "⬅️ Left alignment is the default. Text starts at the left margin!",
+  "source": { "body": "WAEC", "year": "2017" }
+},
+{
+  "id": "wp_018",
+  "question": "The keyboard shortcut Ctrl + B is used to:",
+  "options": ["Make text bold", "Make text italic", "Underline text", "Add bullet points"],
+  "correct": 0,
+  "explanation": "🅱️ Ctrl+B = Bold! B for Bold. Makes text thicker and darker.",
+  "source": { "body": "WAEC", "year": "2016" }
+},
+{
+  "id": "wp_019",
+  "question": "The keyboard shortcut Ctrl + I is used to:",
+  "options": ["Make text italic", "Make text bold", "Underline text", "Indent text"],
+  "correct": 0,
+  "explanation": "🇮 Ctrl+I = Italic! I for Italic. Slants text to the right.",
+  "source": { "body": "WAEC", "year": "2016" }
+},
+{
+  "id": "wp_020",
+  "question": "The keyboard shortcut Ctrl + U is used to:",
+  "options": ["Underline text", "Make text bold", "Make text italic", "Undo last action"],
+  "correct": 0,
+  "explanation": "🇺 Ctrl+U = Underline! U for Underline. Draws a line under the text.",
+  "source": { "body": "WAEC", "year": "2016" }
+},
+{
+  "id": "wp_021",
+  "question": "The keyboard shortcut Ctrl + Z is used to:",
+  "options": ["Undo the last action", "Redo the last action", "Zoom in", "Zoom out"],
+  "correct": 0,
+  "explanation": "↩️ Ctrl+Z = Undo! Made a mistake? Ctrl+Z is your emergency exit!",
+  "source": { "body": "WAEC", "year": "2017" }
+},
+{
+  "id": "wp_022",
+  "question": "The keyboard shortcut Ctrl + Y is used to:",
+  "options": ["Redo the last action", "Undo the last action", "Copy text", "Paste text"],
+  "correct": 0,
+  "explanation": "↪️ Ctrl+Y = Redo! Changed your mind after undoing? Ctrl+Y brings it back!",
+  "source": { "body": "WAEC", "year": "2017" }
+},
+{
+  "id": "wp_023",
+  "question": "The keyboard shortcut Ctrl + P is used to:",
+  "options": ["Print a document", "Paste text", "Preview document", "Save a document"],
+  "correct": 0,
+  "explanation": "🖨️ Ctrl+P = Print! P for Print. Always preview before printing!",
+  "source": { "body": "WAEC", "year": "2018" }
+},
+{
+  "id": "wp_024",
+  "question": "The keyboard shortcut Ctrl + N is used to:",
+  "options": ["Create a new document", "Open a document", "Save a document", "Close a document"],
+  "correct": 0,
+  "explanation": "📄 Ctrl+N = New! N for New. Starts a fresh, blank document.",
+  "source": { "body": "WAEC", "year": "2018" }
+},
+{
+  "id": "wp_025",
+  "question": "The keyboard shortcut Ctrl + O is used to:",
+  "options": ["Open an existing document", "Create a new document", "Save a document", "Print a document"],
+  "correct": 0,
+  "explanation": "📂 Ctrl+O = Open! O for Open. Load an existing file to work on.",
+  "source": { "body": "WAEC", "year": "2018" }
+},
+{
+  "id": "wp_026",
+  "question": "The keyboard shortcut Ctrl + A is used to:",
+  "options": ["Select all text", "Add text", "Align text", "Amend text"],
+  "correct": 0,
+  "explanation": "🎯 Ctrl+A = Select All! A for All. Grabs the whole document at once.",
+  "source": { "body": "WAEC", "year": "2019" }
+},
+{
+  "id": "wp_027",
+  "question": "The white space around the edges of a page in a word processor is the:",
+  "options": ["Margin", "Border", "Header", "Footer"],
+  "correct": 0,
+  "explanation": "📏 Margins = the space between text and the edge of the page.",
+  "source": { "body": "WAEC", "year": "2018" }
+},
+{
+  "id": "wp_028",
+  "question": "A repeated line of text that appears at the top of every page in a document is a:",
+  "options": ["Header", "Footer", "Title", "Caption"],
+  "correct": 0,
+  "explanation": "🔝 Header = at the TOP of every page. Great for chapter titles!",
+  "source": { "body": "WAEC", "year": "2017" }
+},
+{
+  "id": "wp_029",
+  "question": "A repeated line of text that appears at the bottom of every page in a document is a:",
+  "options": ["Footer", "Header", "Title", "Caption"],
+  "correct": 0,
+  "explanation": "🔻 Footer = at the BOTTOM of every page. Perfect for page numbers!",
+  "source": { "body": "WAEC", "year": "2017" }
+},
+{
+  "id": "wp_030",
+  "question": "The feature that automatically adds page numbers to a document is found in the:",
+  "options": ["Insert menu", "Edit menu", "View menu", "File menu"],
+  "correct": 0,
+  "explanation": "🔢 Page numbers = Insert menu → Page Number. Simple!",
+  "source": { "body": "WAEC", "year": "2019" }
+},
+{
+  "id": "wp_031",
+  "question": "The default page orientation for most word processors is:",
+  "options": ["Portrait", "Landscape", "Square", "Diagonal"],
+  "correct": 0,
+  "explanation": "📄 Portrait = taller than wide (like a person). Landscape = wider than tall!",
+  "source": { "body": "WAEC", "year": "2018" }
+},
+{
+  "id": "wp_032",
+  "question": "The page orientation where the page is wider than it is tall is:",
+  "options": ["Landscape", "Portrait", "Square", "Diagonal"],
+  "correct": 0,
+  "explanation": "🖼️ Landscape = like a painting on a wall — wider than tall!",
+  "source": { "body": "WAEC", "year": "2018" }
+},
+{
+  "id": "wp_033",
+  "question": "The default paper size in most word processors is:",
+  "options": ["A4", "A3", "A5", "Letter"],
+  "correct": 0,
+  "explanation": "📃 A4 = standard paper size (210 × 297 mm). Used everywhere!",
+  "source": { "body": "WAEC", "year": "2018" }
+},
+{
+  "id": "wp_034",
+  "question": "The feature used to arrange text in a list with numbers is called:",
+  "options": ["Numbering", "Bullets", "Outline", "Sorting"],
+  "correct": 0,
+  "explanation": "1️⃣ Numbering = 1, 2, 3... Perfect for steps or rankings!",
+  "source": { "body": "WAEC", "year": "2017" }
+},
+{
+  "id": "wp_035",
+  "question": "The feature used to arrange text in a list with dots or symbols is called:",
+  "options": ["Bullets", "Numbering", "Indentation", "Sorting"],
+  "correct": 0,
+  "explanation": "🔘 Bullets = dots that mark each item. Perfect for lists!",
+  "source": { "body": "WAEC", "year": "2017" }
+},
+{
+  "id": "wp_036",
+  "question": "The space between the text and the left or right edge of a page is called:",
+  "options": ["Margin", "Indent", "Padding", "Gutter"],
+  "correct": 0,
+  "explanation": "📏 Margin = the invisible frame around your text. Adjustable!",
+  "source": { "body": "WAEC", "year": "2018" }
+},
+{
+  "id": "wp_037",
+  "question": "The gap between the text and the margin is called:",
+  "options": ["Indentation", "Margin", "Padding", "Spacing"],
+  "correct": 0,
+  "explanation": "➡️ Indentation = pushing text in from the margin. Used for paragraphs!",
+  "source": { "body": "WAEC", "year": "2019" }
+},
+{
+  "id": "wp_038",
+  "question": "The shortcut key Ctrl + E is used to:",
+  "options": ["Center align text", "End the document", "Erase text", "Exit the program"],
+  "correct": 0,
+  "explanation": "🎯 Ctrl+E = Center align! E for 'cEntEr'. Handy for titles!",
+  "source": { "body": "WAEC", "year": "2017" }
+},
+{
+  "id": "wp_039",
+  "question": "The shortcut key Ctrl + L is used to:",
+  "options": ["Left align text", "Lock the document", "Link text", "Load a document"],
+  "correct": 0,
+  "explanation": "⬅️ Ctrl+L = Left align! L for Left. Text sticks to the left margin.",
+  "source": { "body": "WAEC", "year": "2017" }
+},
+{
+  "id": "wp_040",
+  "question": "The shortcut key Ctrl + R is used to:",
+  "options": ["Right align text", "Redo action", "Restore document", "Remove text"],
+  "correct": 0,
+  "explanation": "➡️ Ctrl+R = Right align! R for Right. Text sticks to the right margin.",
+  "source": { "body": "WAEC", "year": "2017" }
+},
+{
+  "id": "wp_041",
+  "question": "The shortcut key Ctrl + J is used to:",
+  "options": ["Justify text", "Jump to page", "Join text", "Judge spelling"],
+  "correct": 0,
+  "explanation": "📐 Ctrl+J = Justify! J for Justify. Both edges align nicely!",
+  "source": { "body": "WAEC", "year": "2018" }
+},
+{
+  "id": "wp_042",
+  "question": "A pre-designed document that can be used as a starting point for a new document is a:",
+  "options": ["Template", "Sample", "Format", "Layout"],
+  "correct": 0,
+  "explanation": "🎨 Template = a ready-made design! Examples: resumes, letters, reports.",
+  "source": { "body": "WAEC", "year": "2019" }
+},
+{
+  "id": "wp_043",
+  "question": "The toolbar that contains icons for common commands such as Save, Print, Undo is called the:",
+  "options": ["Quick Access Toolbar", "Status bar", "Menu bar", "Title bar"],
+  "correct": 0,
+  "explanation": "⚡ Quick Access Toolbar = shortcuts for frequently used commands. Top-left in Word!",
+  "source": { "body": "WAEC", "year": "2019" }
+},
+{
+  "id": "wp_044",
+  "question": "The pane on the left side of a Word window that shows the document's headings is the:",
+  "options": ["Navigation pane", "Status pane", "Task pane", "Review pane"],
+  "correct": 0,
+  "explanation": "🧭 Navigation pane = jump around your document using headings!",
+  "source": { "body": "WAEC", "year": "2020" }
+},
+{
+  "id": "wp_045",
+  "question": "The feature that allows a user to type text in a document that already has a design is called:",
+  "options": ["Template", "Macro", "Style", "Format"],
+  "correct": 0,
+  "explanation": "📄 Templates save time! Just fill in your content.",
+  "source": { "body": "WAEC", "year": "2019" }
+},
+{
+  "id": "wp_046",
+  "question": "Text that appears slightly below the normal line of text (e.g. H₂O) is said to be:",
+  "options": ["Subscript", "Superscript", "Underline", "Strikethrough"],
+  "correct": 0,
+  "explanation": "⬇️ Subscript = BELOW the line. Think H₂O — the 2 sits lower!",
+  "source": { "body": "WAEC", "year": "2020" }
+},
+{
+  "id": "wp_047",
+  "question": "Text that appears slightly above the normal line of text (e.g. x²) is said to be:",
+  "options": ["Superscript", "Subscript", "Underline", "Strikethrough"],
+  "correct": 0,
+  "explanation": "⬆️ Superscript = ABOVE the line. Think x² — the 2 sits higher!",
+  "source": { "body": "WAEC", "year": "2020" }
+},
+{
+  "id": "wp_048",
+  "question": "A horizontal line drawn through the middle of text is called:",
+  "options": ["Strikethrough", "Underline", "Overline", "Bold"],
+  "correct": 0,
+  "explanation": "❌ Strikethrough = a line through the text. Used to show edits or cancellations!",
+  "source": { "body": "WAEC", "year": "2019" }
+},
+{
+  "id": "wp_049",
+  "question": "The feature used to search for a word or phrase in a document is:",
+  "options": ["Find", "Format", "Filter", "Flip"],
+  "correct": 0,
+  "explanation": "🔍 Find = search text quickly! Shortcut: Ctrl+F. Try it in any app!",
+  "source": { "body": "WAEC", "year": "2019" }
+},
+{
+  "id": "wp_050",
+  "question": "The feature used to search for a word and replace it with another word is:",
+  "options": ["Find and Replace", "Search and Swap", "Look and Change", "Seek and Alter"],
+  "correct": 0,
+  "explanation": "🔄 Find and Replace = saves HOURS! Change 'colour' to 'color' in one click.",
+  "source": { "body": "WAEC", "year": "2019" }
+},
+{
+  "id": "wp_051",
+  "question": "The process of combining a document with a database to produce personalized letters is called:",
+  "options": ["Mail merge", "Mail merge wizard", "Mail form", "Mail format"],
+  "correct": 0,
+  "explanation": "📬 Mail merge = one letter, many recipients! Each person gets a personalized copy.",
+  "source": { "body": "WAEC", "year": "2019" }
+},
+{
+  "id": "wp_052",
+  "question": "The main document in a mail merge contains:",
+  "options": ["The text that stays the same for all recipients", "The list of recipients", "The printer settings", "The font styles"],
+  "correct": 0,
+  "explanation": "📄 Main document = the template letter. It has placeholders for names!",
+  "source": { "body": "WAEC", "year": "2020" }
+},
+{
+  "id": "wp_053",
+  "question": "In mail merge, the file that contains the names and addresses of recipients is called the:",
+  "options": ["Data source", "Main document", "Merge field", "Address book"],
+  "correct": 0,
+  "explanation": "🗂️ Data source = the list of people. Usually an Excel or Access file!",
+  "source": { "body": "WAEC", "year": "2020" }
+},
+{
+  "id": "wp_054",
+  "question": "A placeholder in a mail merge main document that gets replaced with actual data is a:",
+  "options": ["Merge field", "Data source", "Text box", "Bookmark"],
+  "correct": 0,
+  "explanation": "🏷️ Merge field = like «FirstName» that becomes 'Adaeze' or 'Tunde'!",
+  "source": { "body": "WAEC", "year": "2020" }
+},
+{
+  "id": "wp_055",
+  "question": "The process of arranging text so that the edges of a paragraph are straight on both sides is:",
+  "options": ["Justification", "Alignment", "Indentation", "Orientation"],
+  "correct": 0,
+  "explanation": "📐 Justification = straight edges on both sides. Looks formal and neat!",
+  "source": { "body": "WAEC", "year": "2018" }
+},
+{
+  "id": "wp_056",
+  "question": "The default font size in most word processors is:",
+  "options": ["11 or 12", "8", "14", "18"],
+  "correct": 0,
+  "explanation": "🔤 Default font size = 11 or 12 pt. Comfortable for reading and printing!",
+  "source": { "body": "WAEC", "year": "2019" }
+},
+{
+  "id": "wp_057",
+  "question": "The default font in Microsoft Word (older versions) is:",
+  "options": ["Calibri", "Arial", "Times New Roman", "Verdana"],
+  "correct": 0,
+  "explanation": "🔤 Calibri = default in Word 2007-2019! (Aptos in newer versions.)",
+  "source": { "body": "WAEC", "year": "2018" }
+},
+{
+  "id": "wp_058",
+  "question": "The unit used to measure font size is:",
+  "options": ["Point", "Pixel", "Millimetre", "Centimetre"],
+  "correct": 0,
+  "explanation": "📏 Font size = measured in POINTS (pt). 72 points = 1 inch!",
+  "source": { "body": "WAEC", "year": "2019" }
+},
+{
+  "id": "wp_059",
+  "question": "The space between lines of text in a paragraph is called:",
+  "options": ["Line spacing", "Paragraph spacing", "Character spacing", "Word spacing"],
+  "correct": 0,
+  "explanation": "📐 Line spacing = space between LINES. Common: 1.0, 1.15, 1.5, double!",
+  "source": { "body": "WAEC", "year": "2018" }
+},
+{
+  "id": "wp_060",
+  "question": "The vertical space between paragraphs is called:",
+  "options": ["Paragraph spacing", "Line spacing", "Character spacing", "Word spacing"],
+  "correct": 0,
+  "explanation": "↕️ Paragraph spacing = space BETWEEN paragraphs. Improves readability!",
+  "source": { "body": "WAEC", "year": "2019" }
+},
+{
+  "id": "wp_061",
+  "question": "A predefined combination of font, size, colour, and spacing is called a:",
+  "options": ["Style", "Theme", "Format", "Template"],
+  "correct": 0,
+  "explanation": "🎨 Style = a ready-made format. Apply 'Heading 1' with one click!",
+  "source": { "body": "WAEC", "year": "2019" }
+},
+{
+  "id": "wp_062",
+  "question": "A set of coordinated colours, fonts, and effects that gives a document a consistent look is a:",
+  "options": ["Theme", "Style", "Template", "Format"],
+  "correct": 0,
+  "explanation": "🎨 Theme = the WHOLE look. Change it once and the entire document updates!",
+  "source": { "body": "WAEC", "year": "2019" }
+},
+{
+  "id": "wp_063",
+  "question": "The feature that automatically adds a reference number or symbol to a footnote or endnote is:",
+  "options": ["Automatic numbering", "Autoformat", "Autocorrect", "Autotext"],
+  "correct": 0,
+  "explanation": "🔢 Automatic numbering = Word adds 1, 2, 3 to your footnotes. No manual counting!",
+  "source": { "body": "WAEC", "year": "2018" }
+},
+{
+  "id": "wp_064",
+  "question": "A note that appears at the bottom of a page to explain or cite something is a:",
+  "options": ["Footnote", "Endnote", "Header", "Footer"],
+  "correct": 0,
+  "explanation": "📝 Footnote = note at the bottom of the SAME page. Great for citations!",
+  "source": { "body": "WAEC", "year": "2019" }
+},
+{
+  "id": "wp_065",
+  "question": "A note that appears at the end of a document or section is an:",
+  "options": ["Endnote", "Footnote", "Header", "Footer"],
+  "correct": 0,
+  "explanation": "📝 Endnote = note at the END of the document. Different from a footnote!",
+  "source": { "body": "WAEC", "year": "2019" }
+},
+{
+  "id": "wp_066",
+  "question": "The feature used to insert a picture or image into a document is found in the:",
+  "options": ["Insert menu", "Edit menu", "Format menu", "View menu"],
+  "correct": 0,
+  "explanation": "🖼️ Insert menu → Picture. Add images, charts, tables, and more!",
+  "source": { "body": "WAEC", "year": "2018" }
+},
+{
+  "id": "wp_067",
+  "question": "The grid of rows and columns used to organize data in a word processor is a:",
+  "options": ["Table", "Chart", "Graph", "Form"],
+  "correct": 0,
+  "explanation": "📊 Table = rows + columns! Perfect for schedules, lists, comparisons.",
+  "source": { "body": "WAEC", "year": "2018" }
+},
+{
+  "id": "wp_068",
+  "question": "In a table, a horizontal set of cells is called a:",
+  "options": ["Row", "Column", "Cell", "Grid"],
+  "correct": 0,
+  "explanation": "➡️ Row = horizontal (left to right). Column = vertical (up to down)!",
+  "source": { "body": "WAEC", "year": "2019" }
+},
+{
+  "id": "wp_069",
+  "question": "In a table, a vertical set of cells is called a:",
+  "options": ["Column", "Row", "Cell", "Grid"],
+  "correct": 0,
+  "explanation": "⬇️ Column = vertical. Think of columns in a Greek temple!",
+  "source": { "body": "WAEC", "year": "2019" }
+},
+{
+  "id": "wp_070",
+  "question": "The intersection of a row and a column in a table is called a:",
+  "options": ["Cell", "Box", "Grid", "Field"],
+  "correct": 0,
+  "explanation": "🔲 Cell = one box in the table. Rows × Columns = total cells!",
+  "source": { "body": "WAEC", "year": "2019" }
+},
+{
+  "id": "wp_071",
+  "question": "The first row of a table that usually contains headings is called the:",
+  "options": ["Header row", "Footer row", "Body row", "Title row"],
+  "correct": 0,
+  "explanation": "📋 Header row = the top row with titles like 'Name' or 'Score'!",
+  "source": { "body": "WAEC", "year": "2020" }
+},
+{
+  "id": "wp_072",
+  "question": "The feature that allows two or more cells in a table to be combined into one is:",
+  "options": ["Merge cells", "Split cells", "Join cells", "Combine cells"],
+  "correct": 0,
+  "explanation": "🔗 Merge cells = combine cells into one. Great for headers spanning columns!",
+  "source": { "body": "WAEC", "year": "2019" }
+},
+{
+  "id": "wp_073",
+  "question": "The feature that allows a merged cell to be divided back into multiple cells is:",
+  "options": ["Split cells", "Merge cells", "Break cells", "Divide cells"],
+  "correct": 0,
+  "explanation": "✂️ Split cells = the reverse of merging. One cell becomes many again!",
+  "source": { "body": "WAEC", "year": "2019" }
+},
+{
+  "id": "wp_074",
+  "question": "A pre-drawn shape, such as a circle or rectangle, that can be inserted into a document is called a:",
+  "options": ["Shape", "Symbol", "Picture", "Chart"],
+  "correct": 0,
+  "explanation": "🔷 Shape = basic forms like circles, squares, arrows. Add visual flair!",
+  "source": { "body": "WAEC", "year": "2018" }
+},
+{
+  "id": "wp_075",
+  "question": "A special character such as ©, ®, or ♥ inserted into a document is a:",
+  "options": ["Symbol", "Shape", "Picture", "Field"],
+  "correct": 0,
+  "explanation": "©️ Symbol = special characters. Insert menu → Symbol to find them!",
+  "source": { "body": "WAEC", "year": "2018" }
+},
+{
+  "id": "wp_076",
+  "question": "The feature that shows what a document will look like when printed is:",
+  "options": ["Print Preview", "Print Setup", "Page Setup", "Print Layout"],
+  "correct": 0,
+  "explanation": "👀 Print Preview = see the final look BEFORE printing. Saves paper!",
+  "source": { "body": "WAEC", "year": "2018" }
+},
+{
+  "id": "wp_077",
+  "question": "The feature used to check a document for spelling and grammar errors is the:",
+  "options": ["Spelling and Grammar Checker", "Proofreader", "Dictionary", "Editor"],
+  "correct": 0,
+  "explanation": "✅ Spelling & Grammar Checker = your proofreading assistant! F7 in Word.",
+  "source": { "body": "WAEC", "year": "2019" }
+},
+{
+  "id": "wp_078",
+  "question": "The keyboard shortcut used to start the spelling and grammar check in MS Word is:",
+  "options": ["F7", "F5", "F9", "F3"],
+  "correct": 0,
+  "explanation": "⌨️ F7 = Spelling & Grammar! Quick way to catch mistakes.",
+  "source": { "body": "WAEC", "year": "2019" }
+},
+{
+  "id": "wp_079",
+  "question": "The feature that counts the number of words in a document is called:",
+  "options": ["Word Count", "Character Count", "Line Count", "Page Count"],
+  "correct": 0,
+  "explanation": "🔢 Word Count = check essay length! In Word: Review → Word Count.",
+  "source": { "body": "WAEC", "year": "2018" }
+},
+{
+  "id": "wp_080",
+  "question": "The line that separates a footnote from the main text is called the:",
+  "options": ["Footnote separator", "Border line", "Divider", "Section line"],
+  "correct": 0,
+  "explanation": "➖ Footnote separator = the short line above footnotes. Word adds it automatically!",
+  "source": { "body": "WAEC", "year": "2020" }
+},
+{
+  "id": "wp_081",
+  "question": "The feature that automatically checks and corrects common typing errors is:",
+  "options": ["AutoCorrect", "AutoText", "AutoFormat", "AutoComplete"],
+  "correct": 0,
+  "explanation": "⚡ AutoCorrect = fixes typos as you type! 'teh' automatically becomes 'the'.",
+  "source": { "body": "WAEC", "year": "2019" }
+},
+{
+  "id": "wp_082",
+  "question": "The feature that lets a user store frequently used text for quick insertion is:",
+  "options": ["AutoText", "AutoCorrect", "AutoFormat", "AutoComplete"],
+  "correct": 0,
+  "explanation": "📝 AutoText = reusable snippets. Store your address, insert in one click!",
+  "source": { "body": "WAEC", "year": "2019" }
+},
+{
+  "id": "wp_083",
+  "question": "The process of moving through a document by scrolling or using arrow keys is called:",
+  "options": ["Navigation", "Browsing", "Scrolling", "Searching"],
+  "correct": 0,
+  "explanation": "🧭 Navigation = moving around the document. Ctrl+Home jumps to the top!",
+  "source": { "body": "WAEC", "year": "2018" }
+},
+{
+  "id": "wp_084",
+  "question": "The keyboard shortcut Ctrl + Home is used to:",
+  "options": ["Move cursor to the beginning of the document", "Move cursor to the end", "Go to the top of the page", "Close the document"],
+  "correct": 0,
+  "explanation": "⬆️ Ctrl+Home = jump to the very START of the document. Super useful!",
+  "source": { "body": "WAEC", "year": "2019" }
+},
+{
+  "id": "wp_085",
+  "question": "The keyboard shortcut Ctrl + End is used to:",
+  "options": ["Move cursor to the end of the document", "Move cursor to the beginning", "Go to the last page", "Exit the document"],
+  "correct": 0,
+  "explanation": "⬇️ Ctrl+End = jump to the very END. Instant travel!",
+  "source": { "body": "WAEC", "year": "2019" }
+},
+{
+  "id": "wp_086",
+  "question": "The keyboard shortcut Ctrl + F is used to:",
+  "options": ["Find text in a document", "Format text", "Fix errors", "Fill colour"],
+  "correct": 0,
+  "explanation": "🔍 Ctrl+F = Find! Search for any word in the document instantly.",
+  "source": { "body": "WAEC", "year": "2018" }
+},
+{
+  "id": "wp_087",
+  "question": "The keyboard shortcut Ctrl + H is used to:",
+  "options": ["Find and Replace text", "Highlight text", "Hide text", "Hyperlink text"],
+  "correct": 0,
+  "explanation": "🔄 Ctrl+H = Find and Replace! Change all occurrences of a word at once.",
+  "source": { "body": "WAEC", "year": "2019" }
+},
+{
+  "id": "wp_088",
+  "question": "The small squares around a selected object that allow it to be resized are called:",
+  "options": ["Handles", "Corners", "Anchors", "Nodes"],
+  "correct": 0,
+  "explanation": "⬜ Handles = those tiny squares. Drag them to resize an image or shape!",
+  "source": { "body": "WAEC", "year": "2019" }
+},
+{
+  "id": "wp_089",
+  "question": "The feature that allows text to flow around an inserted image is called:",
+  "options": ["Text wrapping", "Text alignment", "Text flow", "Text style"],
+  "correct": 0,
+  "explanation": "🔄 Text wrapping = make text flow around the image. Options: Square, Tight, Behind!",
+  "source": { "body": "WAEC", "year": "2019" }
+},
+{
+  "id": "wp_090",
+  "question": "The process of adding descriptive text to an image for accessibility is called:",
+  "options": ["Alt text", "Caption", "Label", "Tag"],
+  "correct": 0,
+  "explanation": "♿ Alt text = describes images for screen readers. Very important for accessibility!",
+  "source": { "body": "WAEC", "year": "2021" }
+},
+{
+  "id": "wp_091",
+  "question": "A numbered list where items are ranked in order of importance uses which type of list?",
+  "options": ["Ordered list", "Unordered list", "Bulleted list", "Nested list"],
+  "correct": 0,
+  "explanation": "🔢 Ordered list = numbered (1, 2, 3). Use for steps, rankings, priorities!",
+  "source": { "body": "WAEC", "year": "2018" }
+},
+{
+  "id": "wp_092",
+  "question": "A list where items are NOT in any particular order uses which type of list?",
+  "options": ["Unordered list", "Ordered list", "Numbered list", "Indexed list"],
+  "correct": 0,
+  "explanation": "🔘 Unordered list = bullets, no numbers. Use for shopping lists, ideas!",
+  "source": { "body": "WAEC", "year": "2018" }
+},
+{
+  "id": "wp_093",
+  "question": "The paper orientation where the height is greater than the width is:",
+  "options": ["Portrait", "Landscape", "Square", "Symmetric"],
+  "correct": 0,
+  "explanation": "📄 Portrait = height > width. The default for most documents!",
+  "source": { "body": "WAEC", "year": "2018" }
+},
+{
+  "id": "wp_094",
+  "question": "The margin that is set differently from the others is called a:",
+  "options": ["Custom margin", "Gutter margin", "Mirror margin", "Wide margin"],
+  "correct": 0,
+  "explanation": "📏 Custom margin = you set specific values yourself. Page Setup → Margins → Custom!",
+  "source": { "body": "WAEC", "year": "2019" }
+},
+{
+  "id": "wp_095",
+  "question": "The extra space added to the binding side of a page is called the:",
+  "options": ["Gutter margin", "Standard margin", "Mirror margin", "Wide margin"],
+  "correct": 0,
+  "explanation": "📚 Gutter margin = extra space for binding. Used in books and booklets!",
+  "source": { "body": "WAEC", "year": "2020" }
+},
+{
+  "id": "wp_096",
+  "question": "The keyboard shortcut Ctrl + Shift + > is used to:",
+  "options": ["Increase font size", "Decrease font size", "Change font type", "Change font colour"],
+  "correct": 0,
+  "explanation": "🔠 Ctrl+Shift+> = grow text. Ctrl+Shift+< shrinks it!",
+  "source": { "body": "WAEC", "year": "2019" }
+},
+{
+  "id": "wp_097",
+  "question": "The process of breaking a document into sections with different formatting is called:",
+  "options": ["Section break", "Page break", "Line break", "Column break"],
+  "correct": 0,
+  "explanation": "📄 Section break = new section with different formatting. Useful for mixed orientations!",
+  "source": { "body": "WAEC", "year": "2020" }
+},
+{
+  "id": "wp_098",
+  "question": "The keyboard shortcut Ctrl + Enter is used to:",
+  "options": ["Insert a page break", "Insert a line break", "Insert a column break", "Insert a section break"],
+  "correct": 0,
+  "explanation": "📄 Ctrl+Enter = page break! Jump to a fresh page instantly.",
+  "source": { "body": "WAEC", "year": "2019" }
+},
+{
+  "id": "wp_099",
+  "question": "The view that shows the document as it will appear when printed is called:",
+  "options": ["Print Layout view", "Web Layout view", "Draft view", "Outline view"],
+  "correct": 0,
+  "explanation": "👁️ Print Layout = WYSIWYG — 'What You See Is What You Get'. The default view!",
+  "source": { "body": "WAEC", "year": "2019" }
+},
+{
+  "id": "wp_100",
+  "question": "The process of changing the appearance of text without changing its content is called:",
+  "options": ["Formatting", "Editing", "Proofreading", "Drafting"],
+  "correct": 0,
+  "explanation": "🎨 Formatting = making it LOOK better. Bold, italic, colours, sizes — all formatting!",
+  "source": { "body": "WAEC", "year": "2018" }
+}
+],
+"Applications of ICT": [
+{
+  "id": "ai_001",
+  "question": "ICT stands for:",
+  "options": ["Information and Communication Technology", "Information Control Technology", "International Computer Technology", "Internet Communication Technology"],
+  "correct": 0,
+  "explanation": "📡 ICT = Information and Communication Technology. It's the backbone of our digital world!",
+  "source": { "body": "WAEC", "year": "2015" }
+},
+{
+  "id": "ai_002",
+  "question": "Which of the following is NOT an ICT tool?",
+  "options": ["Bicycle", "Computer", "Mobile phone", "Television"],
+  "correct": 0,
+  "explanation": "🚲 A bicycle has no electronic communication! Computers, phones, TVs all use ICT.",
+  "source": { "body": "WAEC", "year": "2016" }
+},
+{
+  "id": "ai_003",
+  "question": "Which sector is NOT typically improved by ICT?",
+  "options": ["Traditional storytelling", "Education", "Healthcare", "Banking"],
+  "correct": 0,
+  "explanation": "📖 Traditional storytelling can exist without ICT. Education, health, and banking rely on it!",
+  "source": { "body": "WAEC", "year": "2018" }
+},
+{
+  "id": "ai_004",
+  "question": "The use of computers in hospitals to store patient records is an application of ICT in:",
+  "options": ["Healthcare", "Agriculture", "Banking", "Education"],
+  "correct": 0,
+  "explanation": "🏥 Healthcare uses ICT for records, imaging, telemedicine — saves lives!",
+  "source": { "body": "WAEC", "year": "2017" }
+},
+{
+  "id": "ai_005",
+  "question": "The use of computers for online learning is called:",
+  "options": ["E-learning", "E-commerce", "E-banking", "E-governance"],
+  "correct": 0,
+  "explanation": "🎓 E-learning = learning through the internet! Zoom classes, online courses — that's ICT!",
+  "source": { "body": "WAEC", "year": "2018" }
+},
+{
+  "id": "ai_006",
+  "question": "Buying and selling goods and services over the internet is called:",
+  "options": ["E-commerce", "E-learning", "E-banking", "E-governance"],
+  "correct": 0,
+  "explanation": "🛒 E-commerce = online shopping! Jumia, Amazon, Konga — all e-commerce platforms.",
+  "source": { "body": "WAEC", "year": "2018" }
+},
+{
+  "id": "ai_007",
+  "question": "The use of the internet to carry out banking transactions is called:",
+  "options": ["E-banking", "E-commerce", "E-learning", "E-governance"],
+  "correct": 0,
+  "explanation": "🏦 E-banking = banking online! Transfer money, check balance — all from your phone!",
+  "source": { "body": "WAEC", "year": "2017" }
+},
+{
+  "id": "ai_008",
+  "question": "The use of ICT by the government to deliver services to citizens is called:",
+  "options": ["E-governance", "E-commerce", "E-learning", "E-banking"],
+  "correct": 0,
+  "explanation": "🏛️ E-governance = government services online! E.g. paying taxes, renewing licenses.",
+  "source": { "body": "WAEC", "year": "2019" }
+},
+{
+  "id": "ai_009",
+  "question": "The use of ICT in agriculture to improve crop yield is called:",
+  "options": ["Precision farming", "E-farming", "Smart farming", "Digital farming"],
+  "correct": 0,
+  "explanation": "🌾 Precision farming = using sensors and data to farm smarter. More crops, less waste!",
+  "source": { "body": "WAEC", "year": "2020" }
+},
+{
+  "id": "ai_010",
+  "question": "Which of the following is an application of ICT in education?",
+  "options": ["Computer-Based Testing (CBT)", "Manual marking", "Chalkboard teaching", "Face-to-face lectures only"],
+  "correct": 0,
+  "explanation": "💻 CBT = Computer-Based Testing. JAMB now uses CBT! Fast and accurate results.",
+  "source": { "body": "WAEC", "year": "2019" }
+},
+{
+  "id": "ai_011",
+  "question": "The use of ICT in banking has led to the introduction of:",
+  "options": ["ATM and online transfers", "Physical cash only", "Cheque books only", "Bank visits only"],
+  "correct": 0,
+  "explanation": "🏧 ATMs and online transfers = ICT's gift to banking! No more long queues.",
+  "source": { "body": "WAEC", "year": "2018" }
+},
+{
+  "id": "ai_012",
+  "question": "Which of the following is an ICT application in medicine?",
+  "options": ["Telemedicine", "Handwritten prescriptions", "Paper records", "Physical mail"],
+  "correct": 0,
+  "explanation": "🩺 Telemedicine = doctors treat patients remotely. Great for rural areas!",
+  "source": { "body": "WAEC", "year": "2020" }
+},
+{
+  "id": "ai_013",
+  "question": "The sending of messages electronically over a computer network is called:",
+  "options": ["Electronic mail", "Postal mail", "Courier service", "Fax only"],
+  "correct": 0,
+  "explanation": "📧 Email = electronic mail! Fast, free, and reaches anywhere in seconds!",
+  "source": { "body": "WAEC", "year": "2017" }
+},
+{
+  "id": "ai_014",
+  "question": "The full meaning of 'WWW' is:",
+  "options": ["World Wide Web", "World Web Wide", "Wide World Web", "Web World Wide"],
+  "correct": 0,
+  "explanation": "🌐 WWW = World Wide Web! Invented by Tim Berners-Lee in 1989.",
+  "source": { "body": "WAEC", "year": "2016" }
+},
+{
+  "id": "ai_015",
+  "question": "The global network that connects millions of computers worldwide is:",
+  "options": ["Internet", "Intranet", "Extranet", "Local area network"],
+  "correct": 0,
+  "explanation": "🌍 Internet = the global network! 'Inter' means 'between' — a network between networks.",
+  "source": { "body": "WAEC", "year": "2017" }
+},
+{
+  "id": "ai_016",
+  "question": "A private network used within an organization is called:",
+  "options": ["Intranet", "Internet", "Extranet", "WAN"],
+  "correct": 0,
+  "explanation": "🏢 Intranet = private network inside a company. Like the internet, but only for staff!",
+  "source": { "body": "WAEC", "year": "2018" }
+},
+{
+  "id": "ai_017",
+  "question": "Which of the following is a web browser?",
+  "options": ["Google Chrome", "Microsoft Word", "Adobe Photoshop", "VLC Media Player"],
+  "correct": 0,
+  "explanation": "🌐 Google Chrome = a browser! Others: Firefox, Safari, Edge, Opera.",
+  "source": { "body": "WAEC", "year": "2019" }
+},
+{
+  "id": "ai_018",
+  "question": "Which of the following is a search engine?",
+  "options": ["Google", "Facebook", "Gmail", "YouTube"],
+  "correct": 0,
+  "explanation": "🔍 Google = search engine! Others: Bing, Yahoo, DuckDuckGo. They find info on the web!",
+  "source": { "body": "WAEC", "year": "2019" }
+},
+{
+  "id": "ai_019",
+  "question": "The unique address of a website on the internet is called:",
+  "options": ["URL", "HTML", "HTTP", "FTP"],
+  "correct": 0,
+  "explanation": "🔗 URL = Uniform Resource Locator. Example: www.google.com — that's a URL!",
+  "source": { "body": "WAEC", "year": "2018" }
+},
+{
+  "id": "ai_020",
+  "question": "HTTP stands for:",
+  "options": ["HyperText Transfer Protocol", "HyperText Transmission Protocol", "High Transfer Text Protocol", "Hyper Transfer Text Protocol"],
+  "correct": 0,
+  "explanation": "🔒 HTTP = HyperText Transfer Protocol. HTTPS (with S) = the secure version!",
+  "source": { "body": "WAEC", "year": "2018" }
+},
+{
+  "id": "ai_021",
+  "question": "The language used to create web pages is:",
+  "options": ["HTML", "Python", "Java", "C++"],
+  "correct": 0,
+  "explanation": "📄 HTML = HyperText Markup Language. It's the skeleton of every webpage!",
+  "source": { "body": "WAEC", "year": "2019" }
+},
+{
+  "id": "ai_022",
+  "question": "A software that allows users to access and view web pages is a:",
+  "options": ["Web browser", "Web server", "Search engine", "Web page"],
+  "correct": 0,
+  "explanation": "🌐 Web browser = the app you use to view websites. Chrome, Firefox, Safari!",
+  "source": { "body": "WAEC", "year": "2017" }
+},
+{
+  "id": "ai_023",
+  "question": "A website that allows users to create and share content is called:",
+  "options": ["Social media", "Search engine", "Web browser", "Email client"],
+  "correct": 0,
+  "explanation": "📱 Social media = Facebook, Twitter, Instagram, TikTok. Users create the content!",
+  "source": { "body": "WAEC", "year": "2020" }
+},
+{
+  "id": "ai_024",
+  "question": "The process of sending and receiving messages in real-time over the internet is:",
+  "options": ["Instant messaging", "Email", "Postal mail", "Fax"],
+  "correct": 0,
+  "explanation": "💬 Instant messaging = WhatsApp, Telegram, iMessage. Immediate back-and-forth!",
+  "source": { "body": "WAEC", "year": "2019" }
+},
+{
+  "id": "ai_025",
+  "question": "A live audio or video broadcast over the internet is called:",
+  "options": ["Streaming", "Downloading", "Uploading", "Browsing"],
+  "correct": 0,
+  "explanation": "📺 Streaming = watch as it plays! YouTube, Netflix, live sports — all streaming!",
+  "source": { "body": "WAEC", "year": "2020" }
+},
+{
+  "id": "ai_026",
+  "question": "The process of buying goods online from another country is an example of:",
+  "options": ["E-commerce", "E-learning", "E-banking", "E-governance"],
+  "correct": 0,
+  "explanation": "🌍 E-commerce crosses borders! Order from Amazon USA — that's global e-commerce!",
+  "source": { "body": "WAEC", "year": "2019" }
+},
+{
+  "id": "ai_027",
+  "question": "The use of computers to control machines in factories is called:",
+  "options": ["Automation", "Computation", "Simulation", "Animation"],
+  "correct": 0,
+  "explanation": "🏭 Automation = machines doing the work! Robots in car factories, for example.",
+  "source": { "body": "WAEC", "year": "2019" }
+},
+{
+  "id": "ai_028",
+  "question": "A computer-generated imitation of a real-world process is called:",
+  "options": ["Simulation", "Animation", "Automation", "Emulation"],
+  "correct": 0,
+  "explanation": "🎮 Simulation = a realistic imitation. Flight simulators train pilots safely!",
+  "source": { "body": "WAEC", "year": "2020" }
+},
+{
+  "id": "ai_029",
+  "question": "The use of computers to create moving images is called:",
+  "options": ["Animation", "Simulation", "Automation", "Emulation"],
+  "correct": 0,
+  "explanation": "🎬 Animation = bringing images to life! Cartoons, movies, games — all use animation!",
+  "source": { "body": "WAEC", "year": "2020" }
+},
+{
+  "id": "ai_030",
+  "question": "Which of the following is NOT an application of ICT in business?",
+  "options": ["Manual record keeping", "Online marketing", "E-payment", "Video conferencing"],
+  "correct": 0,
+  "explanation": "📓 Manual record keeping doesn't use ICT! Businesses today rely on digital tools.",
+  "source": { "body": "WAEC", "year": "2018" }
+},
+{
+  "id": "ai_031",
+  "question": "The use of video and audio to hold meetings across different locations is called:",
+  "options": ["Video conferencing", "Telecommuting", "Telemarketing", "Broadcasting"],
+  "correct": 0,
+  "explanation": "🎥 Video conferencing = Zoom, Google Meet, Teams! Meet anyone, anywhere.",
+  "source": { "body": "WAEC", "year": "2019" }
+},
+{
+  "id": "ai_032",
+  "question": "Working from home using ICT tools is called:",
+  "options": ["Telecommuting", "Video conferencing", "Telemarketing", "Broadcasting"],
+  "correct": 0,
+  "explanation": "🏠 Telecommuting = work from home! Saved many jobs during the COVID-19 pandemic.",
+  "source": { "body": "WAEC", "year": "2021" }
+},
+{
+  "id": "ai_033",
+  "question": "Which of the following is an ICT application in transportation?",
+  "options": ["GPS navigation", "Hand-drawn maps", "Paper tickets", "Manual traffic control"],
+  "correct": 0,
+  "explanation": "🗺️ GPS = Global Positioning System. Google Maps, Bolt, Uber use GPS!",
+  "source": { "body": "WAEC", "year": "2020" }
+},
+{
+  "id": "ai_034",
+  "question": "GPS stands for:",
+  "options": ["Global Positioning System", "General Positioning Service", "Global Post System", "General Purpose System"],
+  "correct": 0,
+  "explanation": "📍 GPS = Global Positioning System. Satellites tell your phone where you are!",
+  "source": { "body": "WAEC", "year": "2020" }
+},
+{
+  "id": "ai_035",
+  "question": "The use of computers to manage financial records and transactions is called:",
+  "options": ["Accounting software application", "E-learning", "E-governance", "Telemedicine"],
+  "correct": 0,
+  "explanation": "💰 Accounting software = QuickBooks, Sage! Tracks income, expenses, taxes.",
+  "source": { "body": "WAEC", "year": "2019" }
+},
+{
+  "id": "ai_036",
+  "question": "Which of the following is an ICT tool used in education?",
+  "options": ["Interactive whiteboard", "Chalkboard", "Textbook only", "Notebook only"],
+  "correct": 0,
+  "explanation": "📋 Interactive whiteboards = smart boards! Touch screens replace old chalkboards.",
+  "source": { "body": "WAEC", "year": "2019" }
+},
+{
+  "id": "ai_037",
+  "question": "The use of computers to design buildings and structures is called:",
+  "options": ["Computer-Aided Design (CAD)", "Computer-Aided Manufacturing", "Computer-Aided Testing", "Computer-Aided Learning"],
+  "correct": 0,
+  "explanation": "🏗️ CAD = Computer-Aided Design! Architects use AutoCAD to design buildings.",
+  "source": { "body": "WAEC", "year": "2020" }
+},
+{
+  "id": "ai_038",
+  "question": "The use of computers to control manufacturing processes is called:",
+  "options": ["Computer-Aided Manufacturing (CAM)", "Computer-Aided Design", "Computer-Aided Testing", "Computer-Aided Learning"],
+  "correct": 0,
+  "explanation": "🏭 CAM = Computer-Aided Manufacturing. Machines make products automatically!",
+  "source": { "body": "WAEC", "year": "2020" }
+},
+{
+  "id": "ai_039",
+  "question": "Which of the following best describes e-library?",
+  "options": ["A digital collection of books and resources", "A physical library", "A bookstore", "A printing press"],
+  "correct": 0,
+  "explanation": "📚 E-library = digital books! Access thousands of resources without leaving home.",
+  "source": { "body": "WAEC", "year": "2020" }
+},
+{
+  "id": "ai_040",
+  "question": "The use of ICT in the justice system includes:",
+  "options": ["Electronic case filing", "Handwritten records", "Physical file storage", "Manual court proceedings"],
+  "correct": 0,
+  "explanation": "⚖️ Electronic case filing = courts use computers! Faster, more organised justice.",
+  "source": { "body": "WAEC", "year": "2021" }
+},
+{
+  "id": "ai_041",
+  "question": "The application of ICT in security includes:",
+  "options": ["CCTV surveillance", "Manual patrol only", "Paper records", "Physical locks only"],
+  "correct": 0,
+  "explanation": "📹 CCTV = Closed-Circuit Television. Cameras watch and record 24/7!",
+  "source": { "body": "WAEC", "year": "2020" }
+},
+{
+  "id": "ai_042",
+  "question": "CCTV stands for:",
+  "options": ["Closed-Circuit Television", "Central Control Television", "Community Camera Television", "Computer-Controlled Television"],
+  "correct": 0,
+  "explanation": "📹 CCTV = Closed-Circuit Television. Used in banks, malls, schools for security.",
+  "source": { "body": "WAEC", "year": "2020" }
+},
+{
+  "id": "ai_043",
+  "question": "Which of the following is an example of e-payment?",
+  "options": ["Using a debit card online", "Writing a cheque", "Paying with cowries", "Barter trading"],
+  "correct": 0,
+  "explanation": "💳 E-payment = paying electronically! Debit cards, USSD, mobile wallets.",
+  "source": { "body": "WAEC", "year": "2021" }
+},
+{
+  "id": "ai_044",
+  "question": "POS in banking stands for:",
+  "options": ["Point of Sale", "Place of Service", "Point of Service", "Position of Sale"],
+  "correct": 0,
+  "explanation": "🏧 POS = Point of Sale. That small machine at shops where you pay with a card!",
+  "source": { "body": "WAEC", "year": "2020" }
+},
+{
+  "id": "ai_045",
+  "question": "USSD banking allows users to:",
+  "options": ["Bank using short codes on any phone", "Bank only via smartphone", "Bank only in person", "Bank only via email"],
+  "correct": 0,
+  "explanation": "📱 USSD = Unstructured Supplementary Service Data. Works on ANY phone — even a torchlight phone!",
+  "source": { "body": "WAEC", "year": "2021" }
+},
+{
+  "id": "ai_046",
+  "question": "The use of ICT to deliver health services remotely is called:",
+  "options": ["Telemedicine", "E-health", "M-health", "All of the above"],
+  "correct": 3,
+  "explanation": "🏥 Telemedicine, E-health, M-health — all refer to ICT in healthcare! Same family.",
+  "source": { "body": "WAEC", "year": "2021" }
+},
+{
+  "id": "ai_047",
+  "question": "The application of ICT in weather forecasting uses:",
+  "options": ["Supercomputers and satellites", "Handwritten notes", "Paper charts", "Manual observation only"],
+  "correct": 0,
+  "explanation": "🛰️ Weather forecasting = supercomputers process satellite data to predict the weather!",
+  "source": { "body": "WAEC", "year": "2020" }
+},
+{
+  "id": "ai_048",
+  "question": "The use of ICT in election management includes:",
+  "options": ["Electronic voting machines", "Manual ballot papers only", "Hand counting", "Physical queues only"],
+  "correct": 0,
+  "explanation": "🗳️ Electronic voting = faster, more accurate elections! Nigeria uses BVAS now.",
+  "source": { "body": "WAEC", "year": "2021" }
+},
+{
+  "id": "ai_049",
+  "question": "Which of the following is an ICT tool for banking?",
+  "options": ["ATM", "Calculator", "Typewriter", "Abacus"],
+  "correct": 0,
+  "explanation": "🏧 ATM = Automated Teller Machine. Withdraw cash anytime, anywhere!",
+  "source": { "body": "WAEC", "year": "2019" }
+},
+{
+  "id": "ai_050",
+  "question": "The use of ICT to manage large volumes of data for decision-making is called:",
+  "options": ["Management Information System", "E-learning", "E-commerce", "E-governance"],
+  "correct": 0,
+  "explanation": "📊 MIS = Management Information System. Helps managers make smart decisions!",
+  "source": { "body": "WAEC", "year": "2020" }
+},
+{
+  "id": "ai_051",
+  "question": "The use of ICT to track goods during delivery is called:",
+  "options": ["Logistics tracking", "E-payment", "E-learning", "E-governance"],
+  "correct": 0,
+  "explanation": "📦 Logistics tracking = follow your package in real time! 'Your order is out for delivery!'",
+  "source": { "body": "WAEC", "year": "2020" }
+},
+{
+  "id": "ai_052",
+  "question": "The use of ICT for managing customer relationships is called:",
+  "options": ["Customer Relationship Management (CRM)", "Content Management System", "Computer Resource Management", "Creative Resource Management"],
+  "correct": 0,
+  "explanation": "🤝 CRM = software that tracks customer data. Businesses use it to serve you better!",
+  "source": { "body": "WAEC", "year": "2021" }
+},
+{
+  "id": "ai_053",
+  "question": "An online platform that connects buyers and sellers is called:",
+  "options": ["Marketplace", "Email server", "File server", "Print server"],
+  "correct": 0,
+  "explanation": "🛒 Marketplace = online shopping platform! Examples: Jumia, Konga, Amazon, eBay.",
+  "source": { "body": "WAEC", "year": "2020" }
+},
+{
+  "id": "ai_054",
+  "question": "The use of ICT to send money to someone using a mobile phone is called:",
+  "options": ["Mobile money transfer", "Cheque payment", "Cash payment", "Barter trade"],
+  "correct": 0,
+  "explanation": "📲 Mobile money = send cash with your phone! OPay, Palmpay, MoMo — all mobile money!",
+  "source": { "body": "WAEC", "year": "2021" }
+},
+{
+  "id": "ai_055",
+  "question": "Which of the following is NOT a mobile money platform in Nigeria?",
+  "options": ["BlackBerry Messenger", "OPay", "PalmPay", "MoMo"],
+  "correct": 0,
+  "explanation": "💬 BBM was a messaging app, not mobile money! OPay, Palmpay, MoMo ARE mobile money.",
+  "source": { "body": "WAEC", "year": "2021" }
+},
+{
+  "id": "ai_056",
+  "question": "The application of ICT in content creation and sharing is called:",
+  "options": ["Blogging", "Banking", "Broadcasting only", "Booking"],
+  "correct": 0,
+  "explanation": "📝 Blogging = writing articles online! Anyone can be a publisher now!",
+  "source": { "body": "WAEC", "year": "2020" }
+},
+{
+  "id": "ai_057",
+  "question": "The use of ICT to publish and share videos online is called:",
+  "options": ["Video blogging", "Video gaming", "Video editing", "Video calling"],
+  "correct": 0,
+  "explanation": "🎥 Vlogging = video blogging! YouTube has millions of vloggers.",
+  "source": { "body": "WAEC", "year": "2021" }
+},
+{
+  "id": "ai_058",
+  "question": "A podcast is:",
+  "options": ["A digital audio file available for download", "A video file", "A text document", "A spreadsheet"],
+  "correct": 0,
+  "explanation": "🎙️ Podcast = audio content on demand! Like a radio show you listen to anytime.",
+  "source": { "body": "WAEC", "year": "2021" }
+},
+{
+  "id": "ai_059",
+  "question": "The application of ICT in online gaming is called:",
+  "options": ["E-sports", "E-learning", "E-commerce", "E-banking"],
+  "correct": 0,
+  "explanation": "🎮 E-sports = competitive gaming! Players compete in tournaments worldwide.",
+  "source": { "body": "WAEC", "year": "2021" }
+},
+{
+  "id": "ai_060",
+  "question": "ICT has improved the way people communicate by introducing:",
+  "options": ["Social media platforms", "Postal letters only", "Telegrams only", "Physical meetings only"],
+  "correct": 0,
+  "explanation": "📱 Social media = Facebook, Twitter, Instagram, TikTok! Faster, wider communication.",
+  "source": { "body": "WAEC", "year": "2020" }
+},
+{
+  "id": "ai_061",
+  "question": "The act of using ICT to buy and sell shares in the stock market is called:",
+  "options": ["Online stock trading", "Retail shopping", "E-learning", "E-governance"],
+  "correct": 0,
+  "explanation": "📈 Online trading = buy shares from your phone! Apps like Bamboo, Chaka make it easy.",
+  "source": { "body": "WAEC", "year": "2021" }
+},
+{
+  "id": "ai_062",
+  "question": "The application of ICT in tax collection and management is part of:",
+  "options": ["E-governance", "E-commerce", "E-learning", "E-banking"],
+  "correct": 0,
+  "explanation": "🏛️ E-governance = government using ICT! Tax filing online is part of it.",
+  "source": { "body": "WAEC", "year": "2021" }
+},
+{
+  "id": "ai_063",
+  "question": "Which of the following is NOT a benefit of ICT?",
+  "options": ["Increased isolation", "Improved communication", "Faster information access", "Automation of tasks"],
+  "correct": 0,
+  "explanation": "😔 Isolation can result from OVERUSE of ICT, but it's not a benefit! The others are!",
+  "source": { "body": "WAEC", "year": "2020" }
+},
+{
+  "id": "ai_064",
+  "question": "The use of ICT to support learning outside the classroom is called:",
+  "options": ["Distance learning", "Classroom teaching", "Face-to-face learning", "Chalkboard learning"],
+  "correct": 0,
+  "explanation": "🌍 Distance learning = study from anywhere! Especially valuable for remote students.",
+  "source": { "body": "WAEC", "year": "2020" }
+},
+{
+  "id": "ai_065",
+  "question": "The National Open University of Nigeria (NOUN) is an example of:",
+  "options": ["Distance learning institution", "Traditional university", "Secondary school", "Primary school"],
+  "correct": 0,
+  "explanation": "🎓 NOUN = distance learning! Study from home with online materials.",
+  "source": { "body": "WAEC", "year": "2021" }
+},
+{
+  "id": "ai_066",
+  "question": "ICT has made it possible for people to work remotely using:",
+  "options": ["Virtual Private Networks (VPN)", "Typewriters", "Fax machines", "Pagers"],
+  "correct": 0,
+  "explanation": "🔐 VPN = a secure tunnel to the office network! Work safely from anywhere.",
+  "source": { "body": "WAEC", "year": "2021" }
+},
+{
+  "id": "ai_067",
+  "question": "The use of ICT in the hospitality industry includes:",
+  "options": ["Online hotel booking", "Paper reservations only", "Walk-in only", "Phone-only booking"],
+  "correct": 0,
+  "explanation": "🏨 Online hotel booking = Booking.com, Airbnb! Reserve rooms from your phone.",
+  "source": { "body": "WAEC", "year": "2020" }
+},
+{
+  "id": "ai_068",
+  "question": "The use of ICT in the transportation sector includes ride-hailing apps like:",
+  "options": ["Uber and Bolt", "Facebook and Twitter", "Netflix and YouTube", "Gmail and Yahoo"],
+  "correct": 0,
+  "explanation": "🚕 Uber and Bolt = ride-hailing! Request a car from your phone, pay automatically.",
+  "source": { "body": "WAEC", "year": "2021" }
+},
+{
+  "id": "ai_069",
+  "question": "The use of ICT to manage human resources in organizations is called:",
+  "options": ["Human Resource Information System", "Computer Resource Information System", "Human Recreation Information System", "Human Rights Information System"],
+  "correct": 0,
+  "explanation": "👥 HRIS = HR Information System! Tracks employees, salaries, attendance.",
+  "source": { "body": "WAEC", "year": "2021" }
+},
+{
+  "id": "ai_070",
+  "question": "Which of the following is an ICT application in law enforcement?",
+  "options": ["Automated fingerprint identification", "Manual record writing", "Paper filing", "Verbal reports"],
+  "correct": 0,
+  "explanation": "👮 Automated fingerprint ID = police use computers to catch criminals faster!",
+  "source": { "body": "WAEC", "year": "2021" }
+},
+{
+  "id": "ai_071",
+  "question": "The use of ICT in the military includes:",
+  "options": ["Drone surveillance", "Carrier pigeons", "Handwritten messages", "Paper maps"],
+  "correct": 0,
+  "explanation": "🛩️ Drones = unmanned aircraft used for surveillance and combat missions!",
+  "source": { "body": "WAEC", "year": "2021" }
+},
+{
+  "id": "ai_072",
+  "question": "The application of ICT in libraries includes:",
+  "options": ["Digital cataloguing", "Manual card catalogues", "Handwritten indexes", "Physical book only"],
+  "correct": 0,
+  "explanation": "📚 Digital cataloguing = find books with a search! No more card drawers.",
+  "source": { "body": "WAEC", "year": "2020" }
+},
+{
+  "id": "ai_073",
+  "question": "The use of ICT in retail involves:",
+  "options": ["Barcode scanning", "Manual pricing", "Handwritten receipts", "Cash only transactions"],
+  "correct": 0,
+  "explanation": "🛒 Barcode scanning = fast checkout! Price and product info read instantly.",
+  "source": { "body": "WAEC", "year": "2020" }
+},
+{
+  "id": "ai_074",
+  "question": "The use of ICT in manufacturing for inventory management is called:",
+  "options": ["Automated inventory system", "Manual counting", "Paper-based tracking", "Visual estimation"],
+  "correct": 0,
+  "explanation": "📦 Automated inventory = computers track stock levels! Alerts when items run low.",
+  "source": { "body": "WAEC", "year": "2021" }
+},
+{
+  "id": "ai_075",
+  "question": "The application of ICT in publishing is called:",
+  "options": ["Desktop publishing", "Manual typesetting", "Handwritten printing", "Woodblock printing"],
+  "correct": 0,
+  "explanation": "📰 Desktop publishing = design magazines, books, flyers on a computer!",
+  "source": { "body": "WAEC", "year": "2019" }
+},
+{
+  "id": "ai_076",
+  "question": "The use of ICT for music production is called:",
+  "options": ["Digital audio production", "Manual recording", "Analog only", "Live performance only"],
+  "correct": 0,
+  "explanation": "🎵 Digital audio production = create music with software! FL Studio, Logic, Pro Tools.",
+  "source": { "body": "WAEC", "year": "2020" }
+},
+{
+  "id": "ai_077",
+  "question": "The use of ICT in photography has led to the invention of:",
+  "options": ["Digital cameras", "Film cameras only", "Pinhole cameras", "Wet plate photography"],
+  "correct": 0,
+  "explanation": "📷 Digital cameras = instant preview, easy sharing, no film development!",
+  "source": { "body": "WAEC", "year": "2019" }
+},
+{
+  "id": "ai_078",
+  "question": "The use of ICT in the film industry has introduced:",
+  "options": ["Computer-generated imagery (CGI)", "Black and white film", "Silent movies", "Manual editing"],
+  "correct": 0,
+  "explanation": "🎬 CGI = Computer-Generated Imagery! Think Marvel movies — those effects are CGI!",
+  "source": { "body": "WAEC", "year": "2020" }
+},
+{
+  "id": "ai_079",
+  "question": "The application of ICT in architecture is:",
+  "options": ["Computer-Aided Design (CAD)", "Hand drafting only", "Physical models only", "Paper sketches only"],
+  "correct": 0,
+  "explanation": "🏛️ CAD = Computer-Aided Design! Architects design buildings in 3D before building.",
+  "source": { "body": "WAEC", "year": "2020" }
+},
+{
+  "id": "ai_080",
+  "question": "Which of the following is a benefit of ICT in healthcare?",
+  "options": ["Faster diagnosis", "Slower patient processing", "More paperwork", "Fewer treatment options"],
+  "correct": 0,
+  "explanation": "🏥 ICT speeds up diagnosis! Medical imaging, AI, and records all help doctors.",
+  "source": { "body": "WAEC", "year": "2020" }
+},
+{
+  "id": "ai_081",
+  "question": "The use of ICT in banking has reduced the need for:",
+  "options": ["Physical cash handling", "Computers", "Internet", "Mobile phones"],
+  "correct": 0,
+  "explanation": "💳 Digital transactions = less cash! Cards, transfers, USSD — no physical money needed.",
+  "source": { "body": "WAEC", "year": "2020" }
+},
+{
+  "id": "ai_082",
+  "question": "The use of ICT in agriculture has improved:",
+  "options": ["Crop yield and monitoring", "Manual labour only", "Traditional tools only", "Physical inspection only"],
+  "correct": 0,
+  "explanation": "🌾 ICT helps farmers monitor crops, weather, and soil! More food with less effort.",
+  "source": { "body": "WAEC", "year": "2021" }
+},
+{
+  "id": "ai_083",
+  "question": "The use of ICT to spread awareness on social issues is called:",
+  "options": ["Digital advocacy", "Manual printing", "Physical rallies only", "Verbal communication only"],
+  "correct": 0,
+  "explanation": "📢 Digital advocacy = social media campaigns for causes! Reaches millions quickly.",
+  "source": { "body": "WAEC", "year": "2021" }
+},
+{
+  "id": "ai_084",
+  "question": "The use of ICT for disaster management includes:",
+  "options": ["Early warning systems", "Paper records", "Manual alerts", "Physical inspections only"],
+  "correct": 0,
+  "explanation": "⚠️ Early warning systems save lives! ICT detects floods, earthquakes, storms ahead of time.",
+  "source": { "body": "WAEC", "year": "2021" }
+},
+{
+  "id": "ai_085",
+  "question": "The use of ICT in telemarketing involves:",
+  "options": ["Automated calling systems", "Face-to-face sales", "Physical mail only", "Door-to-door only"],
+  "correct": 0,
+  "explanation": "📞 Telemarketing = selling over the phone! Automated systems can call thousands.",
+  "source": { "body": "WAEC", "year": "2020" }
+},
+{
+  "id": "ai_086",
+  "question": "An example of ICT in financial services is:",
+  "options": ["Internet banking", "Physical cheque only", "Manual ledgers", "Cash boxes"],
+  "correct": 0,
+  "explanation": "🏦 Internet banking = check balance, transfer, pay bills — all online!",
+  "source": { "body": "WAEC", "year": "2020" }
+},
+{
+  "id": "ai_087",
+  "question": "ICT has improved education through:",
+  "options": ["Online research and digital libraries", "Manual note copying", "Handwritten exams only", "Chalkboard only"],
+  "correct": 0,
+  "explanation": "🔍 Online research = Google, Wikipedia, digital libraries! Knowledge at your fingertips.",
+  "source": { "body": "WAEC", "year": "2020" }
+},
+{
+  "id": "ai_088",
+  "question": "The use of ICT in government for citizen feedback is called:",
+  "options": ["E-participation", "E-commerce", "E-learning", "E-banking"],
+  "correct": 0,
+  "explanation": "🗣️ E-participation = citizens speak to government online! Petitions, feedback, surveys.",
+  "source": { "body": "WAEC", "year": "2021" }
+},
+{
+  "id": "ai_089",
+  "question": "Which of the following is an ICT tool used in elections?",
+  "options": ["Biometric Voter Accreditation System (BVAS)", "Typewriter", "Chalkboard", "Manual calculator"],
+  "correct": 0,
+  "explanation": "🗳️ BVAS = Nigeria's biometric voting system! Verifies voters using fingerprints and face.",
+  "source": { "body": "WAEC", "year": "2022" }
+},
+{
+  "id": "ai_090",
+  "question": "The use of ICT in the insurance industry includes:",
+  "options": ["Online policy management", "Paper forms only", "Manual filing", "Physical inspection only"],
+  "correct": 0,
+  "explanation": "🛡️ Online policy management = buy, renew, claim online! Faster than paperwork.",
+  "source": { "body": "WAEC", "year": "2021" }
+},
+{
+  "id": "ai_091",
+  "question": "The use of ICT in traffic management is called:",
+  "options": ["Intelligent Transport System", "Manual traffic control", "Physical policing only", "Verbal signalling"],
+  "correct": 0,
+  "explanation": "🚦 Intelligent Transport Systems = smart traffic lights, cameras, sensors! Reduces jams.",
+  "source": { "body": "WAEC", "year": "2021" }
+},
+{
+  "id": "ai_092",
+  "question": "The application of ICT in sports includes:",
+  "options": ["Video Assistant Referee (VAR)", "Hand signals only", "Paper scorecards", "Verbal umpiring"],
+  "correct": 0,
+  "explanation": "⚽ VAR = Video Assistant Referee! Reviews plays to help referees make correct calls.",
+  "source": { "body": "WAEC", "year": "2021" }
+},
+{
+  "id": "ai_093",
+  "question": "The use of ICT in journalism is called:",
+  "options": ["Digital journalism", "Print only", "Handwritten news", "Manual reporting"],
+  "correct": 0,
+  "explanation": "📰 Digital journalism = news websites, blogs, podcasts! Reporting has gone online.",
+  "source": { "body": "WAEC", "year": "2020" }
+},
+{
+  "id": "ai_094",
+  "question": "Which of the following is a benefit of ICT in business?",
+  "options": ["Global reach", "Slower communication", "Higher costs only", "Limited customers"],
+  "correct": 0,
+  "explanation": "🌍 Global reach = businesses can sell to the WHOLE world with ICT!",
+  "source": { "body": "WAEC", "year": "2020" }
+},
+{
+  "id": "ai_095",
+  "question": "The use of ICT in banking has introduced the following service:",
+  "options": ["Unstructured Supplementary Service Data (USSD)", "Smoke signals", "Physical letter writing", "Manual ledgers"],
+  "correct": 0,
+  "explanation": "📱 USSD = bank without internet! *737# on GTB, *901# on Access, etc.",
+  "source": { "body": "WAEC", "year": "2021" }
+},
+{
+  "id": "ai_096",
+  "question": "ICT has been applied in the judicial system through:",
+  "options": ["Electronic court recording", "Handwritten transcripts", "Manual note-taking", "Physical filing only"],
+  "correct": 0,
+  "explanation": "⚖️ Electronic recording = courts record proceedings automatically! Accurate and reliable.",
+  "source": { "body": "WAEC", "year": "2021" }
+},
+{
+  "id": "ai_097",
+  "question": "The use of ICT in emergency services includes:",
+  "options": ["Emergency response dispatch systems", "Paper logs only", "Manual alerts", "Verbal communication only"],
+  "correct": 0,
+  "explanation": "🚑 Dispatch systems = police, fire, ambulance coordinate instantly! Saves lives.",
+  "source": { "body": "WAEC", "year": "2021" }
+},
+{
+  "id": "ai_098",
+  "question": "The use of ICT in environmental monitoring includes:",
+  "options": ["Remote sensing and sensors", "Manual inspection only", "Visual observation", "Paper records only"],
+  "correct": 0,
+  "explanation": "🛰️ Remote sensing = satellites and sensors watch the environment! Detects pollution.",
+  "source": { "body": "WAEC", "year": "2021" }
+},
+{
+  "id": "ai_099",
+  "question": "Which of the following is an ICT tool used in scientific research?",
+  "options": ["Simulation software", "Chalkboard", "Typewriter", "Abacus"],
+  "correct": 0,
+  "explanation": "🔬 Simulation software = test hypotheses virtually! Saves time, money, and resources.",
+  "source": { "body": "WAEC", "year": "2021" }
+},
+{
+  "id": "ai_100",
+  "question": "The primary purpose of ICT in modern society is to:",
+  "options": ["Improve efficiency and productivity", "Replace humans completely", "Increase paperwork", "Slow down communication"],
+  "correct": 0,
+  "explanation": "🚀 ICT's purpose = HELP people work smarter, faster, and better! It assists, not replaces.",
+  "source": { "body": "WAEC", "year": "2020" }
+}
+]
+  }
+}
