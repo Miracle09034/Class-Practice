@@ -51,7 +51,7 @@ const QUESTION_BANKS = {};
 
 // Active subject's topic → questions map.
 // Kept as a live reference so `buildPracticeQuestions()` works unchanged.
-let QUESTION_BAN = {};
+let QUESTION_BANK = {};
 
 // Track loading state.
 const QuestionBankState = {
@@ -547,6 +547,9 @@ function shuffleArray(arr) {
 // START PRACTICE
 // ------------------------------------------------------------
 function startPracticeSession(config) {
+    console.log('🚀 Starting session. QUESTION_BANK =', QUESTION_BANK);
+    console.log('📋 Config:', config);
+
     if (!QUESTION_BANK || Object.keys(QUESTION_BANK).length === 0) {
         alert('No questions loaded. Please try again.');
         return;
@@ -574,21 +577,36 @@ function startPracticeSession(config) {
 // RENDER CURRENT QUESTION
 // ------------------------------------------------------------
 function renderPracticeQuestion() {
+    const required = [
+        'questionTopicTag','questionSource','questionText','optionsList',
+        'practiceCurrent','practiceTotal','progressFill',
+        'practicePrevBtn','practiceNextBtn','practiceSubmitBtn','questionDots'
+    ];
+    const missing = required.filter(id => !document.getElementById(id));
+    if (missing.length) {
+        console.error('❌ Missing practice-screen elements:', missing);
+        return;
+    }
+    // ...rest unchanged
+
     const idx = PracticeState.currentIndex;
     const q = PracticeState.questions[idx];
     if (!q) return;
 
     // Topic tag
-    document.getElementById('questionTopicTag').textContent = q.topic;
-    // Source badge (exam body + year) — hidden if not available
+document.getElementById('questionTopicTag').textContent = q.topic;
+
+// Source badge (exam body + year) — hidden if not available
 const sourceEl = document.getElementById('questionSource');
-if (q.source && q.source.body) {
-    const yearPart = q.source.year ? ` ${q.source.year}` : '';
-    sourceEl.textContent = `📌 ${q.source.body}${yearPart}`;
-    sourceEl.style.display = 'inline-flex';
-} else {
-    sourceEl.textContent = '';
-    sourceEl.style.display = 'none';
+if (sourceEl) {
+    if (q.source && q.source.body) {
+        const yearPart = q.source.year ? ` ${q.source.year}` : '';
+        sourceEl.textContent = `📌 ${q.source.body}${yearPart}`;
+        sourceEl.style.display = 'inline-flex';
+    } else {
+        sourceEl.textContent = '';
+        sourceEl.style.display = 'none';
+    }
 }
     
 
@@ -2076,30 +2094,5 @@ function showToast(message, duration = 4000) {
         toast.classList.remove('visible');
         setTimeout(() => toast.remove(), 300);
     }, duration);
-}
-
-function pickRandom(arr, count) {
-    const copy = [...arr];
-    for (let i = copy.length - 1; i > 0; i--) {
-        const j = Math.floor(Math.random() * (i + 1));
-        [copy[i], copy[j]] = [copy[j], copy[i]];
-    }
-    return copy.slice(0, count);
-}
-
-function shuffleOptions(question) {
-    const correctText = question.options[question.correct];
-    const shuffled = [...question.options];
-
-    for (let i = shuffled.length - 1; i > 0; i--) {
-        const j = Math.floor(Math.random() * (i + 1));
-        [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
-    }
-
-    return {
-        ...question,
-        options: shuffled,
-        correct: shuffled.indexOf(correctText)
-    };
 }
 
