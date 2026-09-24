@@ -3,11 +3,13 @@ name: Build Windows Installer
 on:
   push:
     tags:
-      - 'v*'  # Triggers when you push a tag like v1.0.0
+      - 'v*'
 
 jobs:
   build:
     runs-on: windows-latest
+    permissions:
+      contents: write # Crucial: allows uploading to Releases
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
@@ -24,4 +26,6 @@ jobs:
         uses: samuelmeuli/action-electron-builder@v1
         with:
           github_token: ${{ secrets.github_token }}
-          release: true  # Creates a GitHub Release with the installer
+          release: true
+          # This forces electron-builder to upload the .exe to GitHub
+          args: '--publish always'
