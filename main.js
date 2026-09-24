@@ -3,15 +3,20 @@ const path = require('path');
 
 function createWindow() {
   const win = new BrowserWindow({
-    width: 1200,
-    height: 800,
+    width: 1024,
+    height: 768,
+    autoHideMenuBar: true,
     webPreferences: {
-      contextIsolation: true,
-      nodeIntegration: false
+      nodeIntegration: false,
+      contextIsolation: true
     }
   });
-  // Load your index.html
+
   win.loadFile('index.html');
 }
 
 app.whenReady().then(createWindow);
+
+app.on('window-all-closed', () => {
+  if (process.platform !== 'darwin') app.quit();
+});
