@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Class Practice Test</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="app-shell">
+<!-- Persistent user chip (Individual mode only) -->
+<div id="userChip" class="user-chip" style="display:none;">
+    <img id="userChipAvatar" class="user-chip-avatar" alt="" />
+    <span id="userChipName" class="user-chip-name"></span>
+    <button id="userChipLogout" class="user-chip-logout" title="Log out">✕</button>
+</div>
+
+        <!-- ============================= -->
+        <!-- 1. WELCOME SCREEN             -->
+        <!-- ============================= -->
+        <!-- ============================= -->
+<!-- 1. WELCOME SCREEN             -->
+<!-- ============================= -->
+<section id="welcomeScreen" class="screen active welcome-screen">
+    <div class="welcome-content">
+        <div class="welcome-badge">✦ Class Practice</div>
+        <h1 class="welcome-title">
+            Welcome to <span>Class Practice Test</span>
+        </h1>
+        <p class="welcome-subtitle">
+            An opportunity to practice what you already know.
+        </p>
+
+        <div class="welcome-actions">
+            <button id="beginBtn" class="btn btn-hero">
+                Begin Practice
+                <span class="arrow">→</span>
+            </button>
+            <button id="viewHistoryFromWelcome" class="btn btn-ghost">
+                📁 View Past Results
+            </button>
+        </div>
+
+        <p class="welcome-footnote">No pressure. Just practice.</p>
+    </div>
+</section>
+
+        <!-- ============================= -->
+        <!-- 2. MODE SELECTION             -->
+        <!-- ============================= -->
+        <section id="modeScreen" class="screen">
+            <div class="screen-header">
+                <button class="btn-back" data-back="welcomeScreen" aria-label="Go back">
+    <svg class="btn-back-icon" viewBox="0 0 24 24" fill="none"
+         stroke="currentColor" stroke-width="2.2"
+         stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+        <polyline points="15 6 9 12 15 18"></polyline>
+    </svg>
+    <span class="btn-back-label">Back</span>
+</button>
+                <h2>How would you like to practice?</h2>
+                <p class="screen-sub">Choose a mode to get started.</p>
+            </div>
+
+            <div class="mode-grid">
+                <button class="mode-card" data-mode="class">
+                    <div class="mode-icon">👥</div>
+                    <h3>Class</h3>
+                    <p>Practice together as a group.</p>
+                </button>
+
+                <button class="mode-card" data-mode="individual">
+                    <div class="mode-icon">👤</div>
+                    <h3>Individual</h3>
+                    <p>Practice on your own.</p>
+                </button>
+            </div>
+        </section>
+        
+        <!-- ============================= -->
+<!-- 2b. LOGIN (Individual only)   -->
+<!-- ============================= -->
+<section id="loginScreen" class="screen">
+    <div class="screen-header">
+        <button class="btn-back" data-back="modeScreen" aria-label="Go back">
+    <svg class="btn-back-icon" viewBox="0 0 24 24" fill="none"
+         stroke="currentColor" stroke-width="2.2"
+         stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+        <polyline points="15 6 9 12 15 18"></polyline>
+    </svg>
+    <span class="btn-back-label">Back</span>
+</button>
+        <h2>Welcome back 👋</h2>
+        <p class="screen-sub">Log in to continue with individual practice.</p>
+    </div>
+
+    <form id="loginForm" class="auth-form" novalidate>
+        <div class="form-group">
+            <label for="loginName">Full Name</label>
+            <input type="text" id="loginName" autocomplete="username"
+                   placeholder="Enter your name" required>
+        </div>
+
+        <div class="form-group">
+            <label for="loginPassword">Password</label>
+            <div class="password-wrap">
+                <input type="password" id="loginPassword" autocomplete="current-password"
+                       placeholder="Enter your password" required>
+                <button type="button" class="toggle-password"
+                        data-target="loginPassword" aria-label="Show password">👁</button>
+            </div>
+        </div>
+
+        <div id="loginError" class="form-error" style="display:none;"></div>
+
+        <button type="submit" class="btn btn-primary btn-full">
+            Log In
+        </button>
+
+        <p class="auth-switch">
+            Don't have an account?
+            <a href="#" id="goToRegister">Create an account</a>
+        </p>
+    </form>
+</section>
+
+<!-- ============================= -->
+<!-- 2c. CREATE ACCOUNT            -->
+<!-- ============================= -->
+<section id="registerScreen" class="screen">
+    <div class="screen-header">
+        <button class="btn-back" data-back="loginScreen" aria-label="Go back">
+    <svg class="btn-back-icon" viewBox="0 0 24 24" fill="none"
+         stroke="currentColor" stroke-width="2.2"
+         stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+        <polyline points="15 6 9 12 15 18"></polyline>
+    </svg>
+    <span class="btn-back-label">Back</span>
+</button>
+        <h2>Create your account</h2>
+        <p class="screen-sub">It takes less than a minute.</p>
+    </div>
+
+    <form id="registerForm" class="auth-form" novalidate>
+        <!-- Avatar preview -->
+        <div class="avatar-preview-wrap">
+            <img id="registerAvatarPreview" class="avatar-preview" alt="Avatar preview">
+            <div class="avatar-preview-info">
+                <strong id="registerAvatarName">Your Name</strong>
+                <span id="registerAvatarGender">Gender</span>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label for="registerName">Full Name</label>
+            <input type="text" id="registerName" autocomplete="name"
+                   placeholder="e.g. Adaeze Okafor" required>
+        </div>
+
+        <div class="form-row">
+            <div class="form-group">
+                <label for="registerGender">Gender</label>
+                <select id="registerGender" required>
+                    <option value="">Select…</option>
+                    <option value="female">Female</option>
+                    <option value="male">Male</option>
+                    <option value="other">Prefer not to say</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="registerPhoto">Profile image <span class="opt">(optional)</span></label>
+                <input type="file" id="registerPhoto" accept="image/*">
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label for="registerPassword">Password</label>
+            <div class="password-wrap">
+                <input type="password" id="registerPassword" autocomplete="new-password"
+                       placeholder="Create a password" required>
+                <button type="button" class="toggle-password"
+                        data-target="registerPassword" aria-label="Show password">👁</button>
+            </div>
+            <div class="password-strength">
+                <div class="strength-bar"><div id="strengthFill"></div></div>
+                <span id="strengthLabel" class="strength-label">Use a strong password</span>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label for="registerConfirm">Confirm Password</label>
+            <div class="password-wrap">
+                <input type="password" id="registerConfirm" autocomplete="new-password"
+                       placeholder="Repeat your password" required>
+                <button type="button" class="toggle-password"
+                        data-target="registerConfirm" aria-label="Show password">👁</button>
+            </div>
+        </div>
+
+        <div id="registerError" class="form-error" style="display:none;"></div>
+
+        <p class="password-hint">
+            💡 Use a strong password — at least 8 characters,
+            mixing letters, numbers, and symbols.
+        </p>
+
+        <button type="submit" class="btn btn-primary btn-full">
+            Create Account
+        </button>
+
+        <p class="auth-switch">
+            Already have an account?
+            <a href="#" id="goToLogin">Log in</a>
+        </p>
+    </form>
+</section>
+
+        <!-- ============================= -->
+        <!-- 3. SUBJECT SELECTION          -->
+        <!-- ============================= -->
+        <section id="subjectScreen" class="screen">
+            <div class="screen-header">
+                <button class="btn-back" data-back="modeScreen">← Back</button>
+                <h2>Select a Subject</h2>
+                <p class="screen-sub">What would you like to practice today?</p>
+            </div>
+
+            <div id="subjectGrid" class="subject-grid">
+                <!-- Populated by JS -->
+            </div>
+        </section>
+
+        <!-- ============================= -->
+        <!-- 4. TOPIC SELECTION            -->
+        <!-- ============================= -->
+        <section id="topicScreen" class="screen">
+            <div class="screen-header">
+                <button class="btn-back" data-back="subjectScreen" aria-label="Go back">
+    <svg class="btn-back-icon" viewBox="0 0 24 24" fill="none"
+         stroke="currentColor" stroke-width="2.2"
+         stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+        <polyline points="15 6 9 12 15 18"></polyline>
+    </svg>
+    <span class="btn-back-label">Back</span>
+</button>
+                <h2 id="topicScreenTitle">Choose Topics</h2>
+                <p class="screen-sub">
+                    Select topics and set how many questions you want from each.
+                </p>
+            </div>
+
+            <div id="topicList" class="topic-list">
+                <!-- Populated by JS -->
+            </div>
+
+            <div class="screen-footer">
+                <div class="summary-chip">
+                    <span>Total Questions:</span>
+                    <strong id="topicTotalQuestions">0</strong>
+                </div>
+                <button id="continueToSummaryBtn" class="btn btn-primary" disabled>
+                    Continue
+                </button>
+            </div>
+        </section>
+
+        <!-- ============================= -->
+        <!-- 5. SUMMARY / CONFIRMATION     -->
+        <!-- ============================= -->
+        <section id="summaryScreen" class="screen">
+            <div class="screen-header">
+                <button class="btn-back" data-back="topicScreen" aria-label="Go back">
+    <svg class="btn-back-icon" viewBox="0 0 24 24" fill="none"
+         stroke="currentColor" stroke-width="2.2"
+         stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+        <polyline points="15 6 9 12 15 18"></polyline>
+    </svg>
+    <span class="btn-back-label">Back</span>
+</button>
+                <h2>Ready to Practice</h2>
+                <p class="screen-sub">Review your session before we begin.</p>
+            </div>
+
+            <div id="summaryCard" class="summary-card">
+                <!-- Populated by JS -->
+            </div>
+
+            <div class="screen-footer">
+                <button id="startPracticeBtn" class="btn btn-hero">
+                    Start Practice
+                    <span class="arrow">→</span>
+                </button>
+            </div>
+        </section>
+        
+<!-- ============================= -->
+<!-- 6. PRACTICE SCREEN            -->
+<!-- ============================= -->
+<section id="practiceScreen" class="screen">
+    <div class="practice-topbar">
+        <div class="practice-meta">
+            <span id="practiceSubject" class="practice-subject">Subject</span>
+            <span id="practiceModeBadge" class="practice-badge">Mode</span>
+        </div>
+
+        <div class="practice-timer" id="practiceTimer">00:00</div>
+
+        <button id="quitPracticeBtn" class="btn-quit" title="Quit practice">
+            ✕
+        </button>
+    </div>
+
+    <!-- Progress bar -->
+    <div class="progress-track">
+        <div class="progress-fill" id="progressFill"></div>
+    </div>
+
+    <div class="practice-counter">
+        Question <strong id="practiceCurrent">1</strong>
+        of <strong id="practiceTotal">10</strong>
+    </div>
+
+    <!-- Question card -->
+    <div class="question-card">
+        <div class="question-topic-tag" id="questionTopicTag">Topic</div>
+        <h2 class="question-text" id="questionText">Question goes here</h2>
+        <div class="options-list" id="optionsList"></div>
+    </div>
+
+    <!-- Navigation -->
+    <div class="practice-nav">
+        <button id="practicePrevBtn" class="btn btn-secondary">← Previous</button>
+
+        <div class="question-dots" id="questionDots"></div>
+
+        <button id="practiceNextBtn" class="btn btn-primary">Next →</button>
+    </div>
+
+    <div class="practice-submit-row">
+        <button id="practiceSubmitBtn" class="btn btn-submit" style="display:none;">
+            Submit Practice
+        </button>
+    </div>
+</section>
+
+<!-- ============================= -->
+<!-- 7. RESULTS SCREEN             -->
+<!-- ============================= -->
+<section id="resultsScreen" class="screen">
+    <div class="screen-header">
+        <h2>Practice Complete 🎉</h2>
+        <p class="screen-sub">Here's how you did.</p>
+    </div>
+
+    <div id="resultsCard" class="results-card">
+        <!-- Populated by JS -->
+    </div>
+
+    <div class="screen-footer">
+    <button id="resultsNewBtn" class="btn btn-secondary">
+        New Practice
+    </button>
+    <button id="viewHistoryFromResults" class="btn btn-secondary">
+        📁 Past Results
+    </button>
+    <button id="resultsReviewBtn" class="btn btn-primary">
+        Review Answers
+    </button>
+</div>
+</section>
+
+<!-- ============================= -->
+<!-- 8. REVIEW SCREEN (Learning)   -->
+<!-- ============================= -->
+<section id="reviewScreen" class="screen">
+    <div class="screen-header">
+        <button id="reviewBackBtn" class="btn-back" aria-label="Go back">
+    <svg class="btn-back-icon" viewBox="0 0 24 24" fill="none"
+         stroke="currentColor" stroke-width="2.2"
+         stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+        <polyline points="15 6 9 12 15 18"></polyline>
+    </svg>
+    <span class="btn-back-label">Back</span>
+</button>
+        <h2>Review & Learn</h2>
+        <p class="screen-sub">See what you missed, and why.</p>
+    </div>
+
+    <!-- Progress pills -->
+    <div class="review-progress" id="reviewProgress"></div>
+
+    <!-- Stage where the sliding card lives -->
+    <div class="review-stage" id="reviewStage">
+        <!-- Card inserted dynamically -->
+    </div>
+
+    <!-- Navigation -->
+    <div class="review-nav">
+        <button id="reviewPrevBtn" class="btn btn-secondary">← Previous</button>
+        <div class="review-counter">
+            <strong id="reviewCurrent">1</strong> / <span id="reviewTotal">10</span>
+        </div>
+        <button id="reviewNextBtn" class="btn btn-primary">Next →</button>
+    </div>
+</section>
+
+<!-- ============================= -->
+<!-- 9. HISTORY LIST SCREEN        -->
+<!-- ============================= -->
+<section id="historyScreen" class="screen">
+    <div class="screen-header">
+        <button id="historyBackBtn" class="btn-back" data-back="welcomeScreen" aria-label="Go back">
+    <svg class="btn-back-icon" viewBox="0 0 24 24" fill="none"
+         stroke="currentColor" stroke-width="2.2"
+         stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+        <polyline points="15 6 9 12 15 18"></polyline>
+    </svg>
+    <span class="btn-back-label">Back</span>
+</button>
+        <h2>Past Results</h2>
+        <p class="screen-sub">Every practice session you've completed.</p>
+    </div>
+
+    <div id="historyList" class="history-list">
+        <!-- Populated by JS -->
+    </div>
+
+    <div class="screen-footer" id="historyFooter" style="display:none;">
+        <button id="clearHistoryBtn" class="btn btn-danger">
+            Clear All History
+        </button>
+    </div>
+</section>
+
+<!-- ============================= -->
+<!-- 10. HISTORY DETAIL SCREEN     -->
+<!-- ============================= -->
+<section id="historyDetailScreen" class="screen">
+    <div class="screen-header">
+        <button class="btn-back" data-back="historyScreen" aria-label="Go back">
+    <svg class="btn-back-icon" viewBox="0 0 24 24" fill="none"
+         stroke="currentColor" stroke-width="2.2"
+         stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+        <polyline points="15 6 9 12 15 18"></polyline>
+    </svg>
+    <span class="btn-back-label">Back</span>
+</button>
+        <h2>Session Details</h2>
+        <p class="screen-sub" id="historyDetailSub">Completed on …</p>
+    </div>
+
+    <div id="historyDetailCard" class="results-card">
+        <!-- Populated by JS -->
+    </div>
+
+    <div class="screen-footer">
+        <button id="historyDetailDeleteBtn" class="btn btn-danger">
+            Delete This Result
+        </button>
+        <button id="historyDetailReviewBtn" class="btn btn-primary">
+            Review Answers
+        </button>
+    </div>
+</section>
+
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
+
+
+
+
