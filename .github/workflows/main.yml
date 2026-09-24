@@ -23,9 +23,11 @@ jobs:
 
       - name: Build Windows Installer
         run: npm run dist
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Upload Installer Artifact
         uses: actions/upload-artifact@v4
         with:
-          name: Windows-Exam Master-Setup
+          name: Windows-Exam-Master-Setup
           path: dist/*.exe
